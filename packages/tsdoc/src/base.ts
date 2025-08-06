@@ -7,8 +7,6 @@ import type {
   Type
 } from 'ts-morph'
 import { Project, SyntaxKind, ts } from 'ts-morph'
-import { CWD } from '../constants.js'
-import { logger } from '../utils.js'
 import type {
   BaseArgs,
   GeneratedDefinition,
@@ -90,7 +88,7 @@ export function generateDefinition({
   //   )
   // }
   const declarationFilePath = declaration.getSourceFile().getFilePath()
-  const filePath = slash(path.relative(CWD, declarationFilePath))
+  const filePath = slash(path.relative(process.cwd(), declarationFilePath))
   const symbol = declaration.getSymbolOrThrow()
   const { comment, tags } = getCommentAndTags(declaration)
   const description = ts.displayPartsToString(comment)
@@ -376,7 +374,7 @@ function shouldFlattenType(t: Type): boolean {
     if (IGNORED_TYPES.has(baseName)) return false
     return t.isInterface() || baseName === '__type' || baseName === '__object'
   } catch {
-    logger.error(`Symbol "${t.getText()}" isn't found.`)
+    console.error(`Symbol "${t.getText()}" isn't found.`)
     return false
   }
 }

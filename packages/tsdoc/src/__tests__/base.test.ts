@@ -1,8 +1,8 @@
 import { LayoutPropsSchema } from '../../../nextra-theme-docs/src/schemas.js'
 import { HeadPropsSchema } from '../../../nextra/src/client/components/head.js'
 import { NextraConfigSchema } from '../../../nextra/src/server/schemas.js'
-import { generateDefinition } from '../../../nextra/src/server/tsdoc/base.js'
-import { generateTsFromZod } from '../../../nextra/src/server/tsdoc/zod-to-ts.js'
+import { generateDefinition } from '../base.js'
+import { generateTsFromZod } from '../zod-to-ts.js'
 import typesFixture from './fixtures/flattened?raw'
 
 describe('generateDefinition()', () => {
