@@ -3,7 +3,7 @@
   "version": "4.3.0",
   "description": "A Nextra theme for blogs.",
   "repository": "https://github.com/dimaMachina/nextra",
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Dimitri POSTOLOV <dmytropostolov@gmail.com>",
   "license": "MIT",
   "types": "./dist/index.d.mts",
   "exports": {

@@ -5,7 +5,7 @@
   "description": "TSDoc integration for Nextra",
   "repository": "github:dimaMachina/nextra",
   "homepage": "https://nextra.site",
-  "author": "Dimitri POSTOLOV",
+  "author": "Dimitri POSTOLOV <dmytropostolov@gmail.com>",
   "license": "MIT",
   "private": true,
   "types": "./dist/index.d.ts",

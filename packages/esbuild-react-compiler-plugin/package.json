@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "description": "",
-  "author": "Dimitri POSTOLOV",
+  "author": "Dimitri POSTOLOV <dmytropostolov@gmail.com>",
   "license": "ISC",
   "private": true,
   "types": "./dist/index.d.ts",

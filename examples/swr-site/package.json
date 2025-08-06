@@ -1,7 +1,7 @@
 {
   "name": "swr-site",
   "type": "module",
-  "author": "Shu Ding",
+  "author": "Dimitri POSTOLOV <dmytropostolov@gmail.com>",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
