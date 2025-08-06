@@ -80,6 +80,7 @@ const nextConfig = withNextra({
     // ESLint behaves weirdly in this monorepo.
     ignoreDuringBuilds: true
   },
+  output: 'export',
   redirects: async () => [
     {
       source: '/docs/guide/:slug(typescript|latex|tailwind-css|mermaid)',
