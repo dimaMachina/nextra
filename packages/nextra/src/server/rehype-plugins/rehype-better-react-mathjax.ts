@@ -7,14 +7,18 @@ import type { Plugin } from 'unified'
 import { visit } from 'unist-util-visit'
 import type { MathJaxOptions } from '../../types.js'
 
-const MATHJAX_IMPORTS = {
+const MATHJAX_IMPORTS: MdxjsEsmHast = {
   type: 'mdxjsEsm',
+  value: '',
   data: {
     estree: {
+      type: 'Program',
+      sourceType: 'module',
       body: [
         {
           type: 'ImportDeclaration',
           source: { type: 'Literal', value: 'nextra/components' },
+          attributes: [],
           specifiers: ['MathJax', 'MathJaxContext'].map(name => ({
             type: 'ImportSpecifier',
             imported: { type: 'Identifier', name },
@@ -24,7 +28,7 @@ const MATHJAX_IMPORTS = {
       ]
     }
   }
-} as MdxjsEsmHast
+}
 
 function wrapInMathJaxContext(
   children: ElementContent[],

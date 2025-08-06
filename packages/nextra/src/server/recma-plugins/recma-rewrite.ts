@@ -84,6 +84,7 @@ export const recmaRewrite: Plugin<
 const HOC_IMPORT_AST: ImportDeclaration = {
   type: 'ImportDeclaration',
   source: { type: 'Literal', value: 'nextra/setup-page' },
+  attributes: [],
   specifiers: [
     {
       type: 'ImportSpecifier',

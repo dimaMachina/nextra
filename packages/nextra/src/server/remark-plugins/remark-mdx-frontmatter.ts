@@ -6,15 +6,18 @@ import { parse as parseYaml } from 'yaml'
 import { createAstExportConst } from '../utils.js'
 import { isExportNode } from './remark-mdx-title.js'
 
-function createNode(data: Record<string, unknown>) {
+function createNode(data: Record<string, unknown>): MdxjsEsmHast {
   return {
     type: 'mdxjsEsm',
+    value: '',
     data: {
       estree: {
+        type: 'Program',
+        sourceType: 'module',
         body: [createAstExportConst('metadata', valueToEstree(data))]
       }
     }
-  } as MdxjsEsmHast
+  }
 }
 
 const transformer: Transformer<Root> = ast => {

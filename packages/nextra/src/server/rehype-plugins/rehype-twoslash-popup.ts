@@ -4,14 +4,18 @@ import type { MdxjsEsmHast } from 'mdast-util-mdxjs-esm'
 import type { Plugin, Transformer } from 'unified'
 import { EXIT, visit } from 'unist-util-visit'
 
-const TWOSLASH_POPUP_IMPORT_AST = {
+const TWOSLASH_POPUP_IMPORT_AST: MdxjsEsmHast = {
   type: 'mdxjsEsm',
+  value: '',
   data: {
     estree: {
+      type: 'Program',
+      sourceType: 'module',
       body: [
         {
           type: 'ImportDeclaration',
           source: { type: 'Literal', value: 'nextra/components' },
+          attributes: [],
           specifiers: [
             {
               type: 'ImportSpecifier',
@@ -23,7 +27,7 @@ const TWOSLASH_POPUP_IMPORT_AST = {
       ]
     }
   }
-} as MdxjsEsmHast
+}
 
 const transformer: Transformer<Root> = ast => {
   // The tagName is being converted to lowercase when calling the shiki.codeToHtml

@@ -85,8 +85,11 @@ const transformer: Transformer<Root> = (ast, file) => {
 
   ast.children.push({
     type: 'mdxjsEsm',
+    value: '',
     data: {
       estree: {
+        type: 'Program',
+        sourceType: 'module',
         body: [
           {
             // TOC links must be inside a function, in our case inside useTOC, so
@@ -114,7 +117,7 @@ const transformer: Transformer<Root> = (ast, file) => {
         ]
       }
     }
-  } as MdxjsEsmHast)
+  } satisfies MdxjsEsmHast)
 }
 
 function createComputedKey(
