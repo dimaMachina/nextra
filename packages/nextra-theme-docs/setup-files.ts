@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { generateTsFromZod } from '../nextra/src/server/tsdoc/zod-to-ts'
+import { generateTsFromZod } from '../tsdoc/src/zod-to-ts'
 import { LayoutPropsSchema } from './src/schemas'
 
 await fs.writeFile(

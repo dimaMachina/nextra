@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { HeadPropsSchema } from './src/client/components/head.js'
 import { NextraConfigSchema } from './src/server/schemas.js'
-import { generateTsFromZod } from './src/server/tsdoc/zod-to-ts.js'
+import { generateTsFromZod } from '../tsdoc/src/zod-to-ts.js'
 
 const rawTs = `export interface NextraConfig ${generateTsFromZod(NextraConfigSchema)}
 

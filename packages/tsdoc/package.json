@@ -1,6 +1,6 @@
 {
   "name": "@nextra/tsdoc",
-  "version": "0.0.0",
+  "version": "4.3.0",
   "type": "module",
   "description": "TSDoc integration for Nextra",
   "repository": "github:shuding/nextra",
@@ -33,7 +33,6 @@
   },
   "peerDependencies": {
     "nextra": ">=4.3.0-alpha.0",
-    "nextra-theme-docs": ">=4.3.0-alpha.0",
     "typescript": "*"
   },
   "dependencies": {
