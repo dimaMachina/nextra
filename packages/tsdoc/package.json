@@ -46,7 +46,7 @@
     "@nextra/theme-docs": "workspace:*",
     "@tsconfig/strictest": "^2.0.5",
     "@types/react": "^19.1.8",
-    "@xyflow/react": "12.8.1",
+    "@xyflow/react": "12.8.2",
     "nextra": "workspace:*",
     "tsup": "^8.4.0",
     "vitest": "^3.0.9"
