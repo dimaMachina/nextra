@@ -207,10 +207,10 @@ const config: Config = tseslint.config(
       'react-hooks/react-compiler': 'error'
     }
   },
-  // ⚙️ nextra-theme-docs
+  // ⚙️ @nextra/theme-docs
   {
     // ...TAILWIND_CONFIG,
-    files: ['packages/nextra-theme-docs/**'],
+    files: ['packages/theme-docs/**'],
     settings: {
       tailwindcss: {
         callees: ['cn'],
@@ -307,7 +307,7 @@ const config: Config = tseslint.config(
         cssFiles: [
           'docs/app/globals.css',
           'docs/app/_components/features/style.module.css',
-          'packages/nextra-theme-docs/dist/style.css'
+          'packages/theme-docs/dist/style.css'
         ]
       },
       next: { rootDir: 'docs' }
@@ -322,7 +322,7 @@ const config: Config = tseslint.config(
         cssFiles: [
           'examples/swr-site/app/[lang]/styles.css',
           'examples/swr-site/app/_components/features.css',
-          'packages/nextra-theme-docs/dist/style.css'
+          'packages/theme-docs/dist/style.css'
         ],
         whitelist: [
           '.*nextra-focus' // I can't ignore colon `:`, use `*` instead

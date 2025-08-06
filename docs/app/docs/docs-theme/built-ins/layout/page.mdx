@@ -9,7 +9,7 @@ export function PartialTSDoc({ flattened, props }) {
     <APIDocs
       flattened={flattened}
       code={`
-import { Layout } from 'nextra-theme-docs'
+import { Layout } from '@nextra/theme-docs'
 type $ = Pick<React.ComponentProps<typeof Layout>, ${props.map(prop => JSON.stringify(prop)).join('|')}>
 export default $`}
     />
@@ -22,7 +22,7 @@ The theme is configured with the `<Layout>` component. You should pass your
 config options as Layout's `props`, for example:
 
 ```jsx filename="app/layout.jsx" {8-9}
-import { Layout } from 'nextra-theme-docs'
+import { Layout } from '@nextra/theme-docs'
 
 export default function MyLayout({ children, ...props }) {
   return (

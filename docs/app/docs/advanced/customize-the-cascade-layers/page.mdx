@@ -8,7 +8,7 @@ import { Steps } from 'nextra/components'
 
 In some scenarios, you may need more control over the Nextra predefined CSS to
 avoid unintended overrides of styles within cascade layers. Below is an example
-of how `nextra-theme-docs` uses
+of how `@nextra/theme-docs` uses
 [postcss-import](https://github.com/postcss/postcss-import) to place predefined
 CSS into a specified cascade layer:
 
@@ -35,7 +35,7 @@ specify the layers:
 ```css filename="styles.css"
 @layer nextra, my-base;
 
-@import 'nextra-theme-docs/dist/style.css' layer(nextra);
+@import '@nextra/theme-docs/dist/style.css' layer(nextra);
 
 @layer my-base {
   /* my base styles */

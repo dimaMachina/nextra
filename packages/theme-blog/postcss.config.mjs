@@ -1,1 +1,1 @@
-export { default } from '../nextra-theme-docs/postcss.config.mjs'
+export { default } from '../theme-docs/postcss.config.mjs'

@@ -16,7 +16,8 @@
     "paths": {
       // For type tests
       "unified": ["../nextra/node_modules/unified"],
-      "rehype-katex": ["../nextra/node_modules/rehype-katex/lib/index.d.js"]
+      "rehype-katex": ["../nextra/node_modules/rehype-katex/lib/index.d.js"],
+      "next/image": ["./node_modules/next/image"]
     }
   },
   "exclude": ["dist"]

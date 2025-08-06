@@ -1,5 +1,5 @@
+import { useMDXComponents as getMDXComponents } from '@nextra/theme-docs'
 import { notFound } from 'next/navigation'
-import { useMDXComponents as getMDXComponents } from 'nextra-theme-docs'
 import { compileMdx } from 'nextra/compile'
 import { Callout, Tabs } from 'nextra/components'
 import { evaluate } from 'nextra/evaluate'

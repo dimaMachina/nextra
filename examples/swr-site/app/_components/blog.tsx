@@ -1,5 +1,5 @@
+import { Link } from '@nextra/theme-docs'
 import type { MdxFile } from 'nextra'
-import { Link } from 'nextra-theme-docs'
 import { getPageMap } from 'nextra/page-map'
 import type { FC } from 'react'
 

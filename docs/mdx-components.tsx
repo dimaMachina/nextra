@@ -1,7 +1,7 @@
 import { getEnhancedPageMap } from '@components/get-page-map'
+import { useMDXComponents as getDocsMDXComponents } from '@nextra/theme-docs'
 import { generateDefinition, TSDoc } from '@nextra/tsdoc'
 import type { Folder } from 'nextra'
-import { useMDXComponents as getDocsMDXComponents } from 'nextra-theme-docs'
 import type { UseMDXComponents } from 'nextra/mdx-components'
 import type { ComponentProps } from 'react'
 
@@ -98,7 +98,7 @@ export default $`
           // ThemeProviderProps:
           //   'https://github.com/pacocoursey/next-themes/blob/c89d0191ce0f19215d7ddfa9eb28e1e4f94d37e5/next-themes/src/types.ts#L34-L57',
           LastUpdated:
-            'https://github.com/dimaMachina/nextra/blob/main/packages/nextra-theme-docs/src/components/last-updated.tsx',
+            'https://github.com/dimaMachina/nextra/blob/main/packages/theme-docs/src/components/last-updated.tsx',
           MDXRemote:
             'https://github.com/dimaMachina/nextra/blob/main/packages/nextra/src/client/mdx-remote.tsx',
           MDXComponents:

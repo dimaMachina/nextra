@@ -6,7 +6,7 @@
   h5,
   h6 {
     counter-increment: var(--counter-id);
-    /* Resets from nextra-theme-docs */
+    /* Resets from @nextra/theme-docs */
     @apply x:border-0 x:pb-0 x:font-semibold x:tracking-tight x:mt-8 x:text-2xl;
     /* https://github.com/tailwindlabs/tailwindcss/issues/15597#issuecomment-2582673546 */
     @apply x:before:bg-gray-200 x:dark:before:bg-neutral-800;

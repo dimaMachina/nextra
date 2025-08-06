@@ -1,7 +1,7 @@
 import { ArrowRightIcon } from '@components/icons'
+import { Link } from '@nextra/theme-docs'
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { Link } from 'nextra-theme-docs'
 import { MdxIcon } from 'nextra/icons'
 import docsCardDark from 'public/assets/card-1.dark.png'
 import docsCard from 'public/assets/card-1.png'

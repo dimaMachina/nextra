@@ -1,6 +1,5 @@
 /* eslint-env node */
 import { SwrIcon, VercelIcon } from '@app/_icons'
-import type { Metadata } from 'next'
 import {
   Footer,
   LastUpdated,
@@ -8,7 +7,8 @@ import {
   Link,
   LocaleSwitch,
   Navbar
-} from 'nextra-theme-docs'
+} from '@nextra/theme-docs'
+import type { Metadata } from 'next'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import type { FC, ReactNode } from 'react'
