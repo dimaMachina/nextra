@@ -26,6 +26,7 @@ export function createAstExportConst(
   return {
     type: 'ExportNamedDeclaration',
     specifiers: [],
+    attributes: [],
     declaration: {
       type: 'VariableDeclaration',
       kind: 'const',

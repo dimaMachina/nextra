@@ -28,6 +28,7 @@ export function convertPageMapToJs({
           // Add resource query only for `.md`, `.mdx` files
           value: `private-next-root-dir/${filePath}${isMdx ? METADATA_ONLY_RQ : ''}`
         },
+        attributes: [],
         specifiers: [
           isMeta || isMdx
             ? {

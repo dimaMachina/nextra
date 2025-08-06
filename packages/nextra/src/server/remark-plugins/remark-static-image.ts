@@ -107,12 +107,16 @@ const transformer: Transformer<Root> = ast => {
         (imageUrl, index) =>
           ({
             type: 'mdxjsEsm',
+            value: '',
             data: {
               estree: {
+                type: 'Program',
+                sourceType: 'module',
                 body: [
                   {
                     type: 'ImportDeclaration',
                     source: { type: 'Literal', value: imageUrl },
+                    attributes: [],
                     specifiers: [
                       {
                         type: 'ImportDefaultSpecifier',
@@ -126,7 +130,7 @@ const transformer: Transformer<Root> = ast => {
                 ]
               }
             }
-          }) as MdxjsEsmHast
+          }) satisfies MdxjsEsmHast
       )
     )
   }
