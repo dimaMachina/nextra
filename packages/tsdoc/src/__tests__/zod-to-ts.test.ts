@@ -3,7 +3,7 @@ import { z } from 'zod'
 import { LayoutPropsSchema } from '../../../nextra-theme-docs/src/schemas.js'
 import { HeadPropsSchema } from '../../../nextra/src/client/components/head.js'
 import { NextraConfigSchema } from '../../../nextra/src/server/schemas.js'
-import { generateTsFromZod } from '../../../nextra/src/server/tsdoc/zod-to-ts.js'
+import { generateTsFromZod } from '../zod-to-ts.js'
 
 describe('generateTsFromZod', () => {
   it('should generate TypeScript with @description and @default for primitive types', () => {

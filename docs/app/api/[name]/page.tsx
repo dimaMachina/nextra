@@ -1,9 +1,9 @@
 import path from 'node:path'
 import { generateApiReference } from '@components/generate-api-reference'
 import type { ApiReference } from '@components/generate-api-reference'
+import { generateDefinition } from '@nextra/tsdoc'
 import { useMDXComponents as getMDXComponents } from 'next-mdx-import-source-file'
 import type { MdxFile } from 'nextra'
-import { generateDefinition } from 'nextra/tsdoc'
 import type { FC } from 'react'
 
 type AllApiReference = ApiReference & { filePath?: string }
@@ -42,7 +42,7 @@ export default $`,
   { name: 'generateStaticParamsFor', packageName: 'nextra/pages' },
   { name: 'importPage', packageName: 'nextra/pages' },
   { name: 'compileMdx', packageName: 'nextra/compile' },
-  { name: 'generateDefinition', packageName: 'nextra/tsdoc' },
+  { name: 'generateDefinition', packageName: '@nextra/tsdoc' },
   { name: 'middleware', packageName: 'nextra/locales' },
   { name: 'evaluate', packageName: 'nextra/evaluate' },
   { name: 'normalizePages', packageName: 'nextra/normalize-pages' }

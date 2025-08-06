@@ -1,9 +1,9 @@
 import path from 'node:path'
 import { generateApiReference } from '@components/generate-api-reference'
 import type { ApiReference } from '@components/generate-api-reference'
+import { generateDefinition } from '@nextra/tsdoc'
 import { useMDXComponents as getMDXComponents } from 'next-mdx-import-source-file'
 import type { MdxFile } from 'nextra'
-import { generateDefinition } from 'nextra/tsdoc'
 import type { FC } from 'react'
 
 type ComponentApiReference = ApiReference & { groupKeys?: string }
@@ -74,7 +74,7 @@ const API_REFERENCE: (
   { type: 'separator', title: 'Other Components', name: '_3' },
   { name: 'MDXRemote', packageName: 'nextra/mdx-remote' },
   { name: 'Playground', packageName: 'nextra/components' },
-  { name: 'TSDoc', packageName: 'nextra/tsdoc' }
+  { name: 'TSDoc', packageName: '@nextra/tsdoc' }
 ]
 
 const routes = API_REFERENCE.filter(
