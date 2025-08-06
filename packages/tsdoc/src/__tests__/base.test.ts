@@ -522,7 +522,7 @@ export default $
                   "description": "What type of handle connections do you want to observe?",
                   "name": "[0]?.handleType",
                   "optional": true,
-                  "type": "HandleType",
+                  "type": "'source' | 'target'",
                 },
                 {
                   "description": "Filter by handle id (this is only needed if the node has multiple handles of the same type).",
@@ -803,7 +803,10 @@ export default foo`
   test('should exclude {@link ...}', async () => {
     const code =
       "export { getViewportForBounds as default } from '@xyflow/react'"
-    const result = generateDefinition({ code, flattened: true })
+    const { filePath: _, ...result } = generateDefinition({
+      code,
+      flattened: true
+    })
     await expect(result).toMatchFileSnapshot(
       './snapshots/get-viewport-for-bounds.json'
     )
@@ -843,7 +846,7 @@ export default foo`
   })
 
   test('should flatten params', async () => {
-    const result = generateDefinition({
+    const { filePath: _, ...result } = generateDefinition({
       code: "export { getSmoothStepPath as default } from '@xyflow/react'",
       flattened: true
     })
