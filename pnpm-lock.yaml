@@ -62,6 +62,9 @@ importers:
 
   docs:
     dependencies:
+      '@nextra/theme-docs':
+        specifier: workspace:*
+        version: link:../packages/nextra-theme-docs
       '@nextra/tsdoc':
         specifier: workspace:*
         version: link:../packages/tsdoc
@@ -77,9 +80,6 @@ importers:
       nextra:
         specifier: workspace:*
         version: link:../packages/nextra
-      nextra-theme-docs:
-        specifier: workspace:*
-        version: link:../packages/nextra-theme-docs
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -158,15 +158,15 @@ importers:
 
   examples/docs:
     dependencies:
+      '@nextra/theme-docs':
+        specifier: workspace:*
+        version: link:../../packages/nextra-theme-docs
       next:
         specifier: 15.4.5
         version: 15.4.5(patch_hash=7jofu3qtudpcn7yuwfpdpiosuy)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       nextra:
         specifier: workspace:*
         version: link:../../packages/nextra
-      nextra-theme-docs:
-        specifier: workspace:*
-        version: link:../../packages/nextra-theme-docs
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -180,6 +180,9 @@ importers:
 
   examples/swr-site:
     dependencies:
+      '@nextra/theme-docs':
+        specifier: workspace:*
+        version: link:../../packages/nextra-theme-docs
       markdown-to-jsx:
         specifier: ^7.4.0
         version: 7.4.0(react@19.1.0)
@@ -189,9 +192,6 @@ importers:
       nextra:
         specifier: workspace:*
         version: link:../../packages/nextra
-      nextra-theme-docs:
-        specifier: workspace:*
-        version: link:../../packages/nextra-theme-docs
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -607,6 +607,9 @@ importers:
         specifier: 4.0.0-beta.20250424T163858
         version: 4.0.0-beta.20250424T163858
     devDependencies:
+      '@nextra/theme-docs':
+        specifier: workspace:*
+        version: link:../nextra-theme-docs
       '@tsconfig/strictest':
         specifier: ^2.0.5
         version: 2.0.5
@@ -619,9 +622,6 @@ importers:
       nextra:
         specifier: workspace:*
         version: link:../nextra
-      nextra-theme-docs:
-        specifier: workspace:*
-        version: link:../nextra-theme-docs
       tsup:
         specifier: ^8.4.0
         version: 8.4.0(patch_hash=4v22aexubuhugu5vxw4ejmgukm)(jiti@2.4.2)(postcss@8.5.6)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.7.0)
