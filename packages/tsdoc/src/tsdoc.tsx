@@ -1,9 +1,9 @@
 import cn from 'clsx'
 import Slugger from 'github-slugger'
-import type { FC, ReactElement, ReactNode } from 'react'
-import { Callout, Tabs, Anchor, Code } from 'nextra/components'
-import { MDXRemote } from 'nextra/mdx-remote'
 import { compileMdx } from 'nextra/compile'
+import { Anchor, Callout, Code, Tabs } from 'nextra/components'
+import { MDXRemote } from 'nextra/mdx-remote'
+import type { FC, ReactElement, ReactNode } from 'react'
 import type { generateDefinition } from './base.js'
 import type { GeneratedFunction, TypeField } from './types.js'
 
