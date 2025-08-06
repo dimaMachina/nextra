@@ -62,6 +62,9 @@ importers:
 
   docs:
     dependencies:
+      '@nextra/tsdoc':
+        specifier: workspace:*
+        version: link:../packages/tsdoc
       clsx:
         specifier: ^2.1.0
         version: 2.1.1
