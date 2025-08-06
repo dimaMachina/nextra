@@ -1,6 +1,6 @@
 # nextra-theme-docs
 
-A documentation site theme for [Nextra](https://github.com/shuding/nextra).
+A documentation site theme for [Nextra](https://github.com/dimaMachina/nextra).
 
 ## Example
 

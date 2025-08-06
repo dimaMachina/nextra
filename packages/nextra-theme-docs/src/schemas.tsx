@@ -25,7 +25,7 @@ const feedbackSchema = z.strictObject({
       description: `Feedback link URL.
 
 By default, it's a link to the issue creation form of the docs repository, with the current page title prefilled:
-[example](https://github.com/shuding/nextra/issues/new?title=Feedback%20for%20%E2%80%9CTheme%20Configuration%E2%80%9D&labels=feedback).`
+[example](https://github.com/dimaMachina/nextra/issues/new?title=Feedback%20for%20%E2%80%9CTheme%20Configuration%E2%80%9D&labels=feedback).`
     })
 })
 
@@ -95,7 +95,7 @@ export const LayoutPropsSchema = z.strictObject({
   docsRepositoryBase: z
     .string()
     .startsWith('https://')
-    .default('https://github.com/shuding/nextra')
+    .default('https://github.com/dimaMachina/nextra')
     .meta({
       description: 'URL of the documentation repository.'
     }),

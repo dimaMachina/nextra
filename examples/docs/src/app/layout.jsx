@@ -47,7 +47,7 @@ export default async function RootLayout({ children }) {
           navbar={navbar}
           footer={<Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>}
           editLink="Edit this page on GitHub"
-          docsRepositoryBase="https://github.com/shuding/nextra/blob/main/examples/docs"
+          docsRepositoryBase="https://github.com/dimaMachina/nextra/blob/main/examples/docs"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
           pageMap={pageMap}
         >

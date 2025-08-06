@@ -706,11 +706,11 @@
 - 283320f: remove `export const title` from generated mdx pages
 - 283320f: The initial version which supports App Router instead of Pages
   Router, something may be broken, check
-  https://github.com/shuding/nextra/tree/v4-v2/examples for the migration guide
+  https://github.com/dimaMachina/nextra/tree/v4-v2/examples for the migration guide
 - 283320f: migrate search from Flexsearch to Pagefind
 - 283320f: - add root `_meta.global.{js,jsx,ts,tsx}` file
   > See
-  > [working example](https://github.com/shuding/nextra/blob/v4-v2/docs/app/_meta.global.ts)
+  > [working example](https://github.com/dimaMachina/nextra/blob/v4-v2/docs/app/_meta.global.ts)
   > based on https://nextra.site website
   - `getPageMap` now receive only 1 argument `root?: string = '/'` instead of 2
     `lang?: string, route?: string = '/'`
@@ -1082,7 +1082,7 @@
 
 - 8a0ae0f: - add root `_meta.global.{js,jsx,ts,tsx}` file
   > See
-  > [working example](https://github.com/shuding/nextra/blob/v4-v2/docs/app/_meta.global.ts)
+  > [working example](https://github.com/dimaMachina/nextra/blob/v4-v2/docs/app/_meta.global.ts)
   > based on https://nextra.site website
   - `getPageMap` now receive only 1 argument `root?: string = '/'` instead of 2
     `lang?: string, route?: string = '/'`
@@ -1484,7 +1484,7 @@
 
 - 99f34d3: The initial version which supports App Router instead of Pages
   Router, something may be broken, check
-  https://github.com/shuding/nextra/tree/v4-v2/examples for the migration guide
+  https://github.com/dimaMachina/nextra/tree/v4-v2/examples for the migration guide
 
 ### Patch Changes
 

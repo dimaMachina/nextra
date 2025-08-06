@@ -42,6 +42,6 @@ export default {
   nextra_link: {
     type: 'page',
     title: 'Nextra',
-    href: 'https://github.com/shuding/nextra'
+    href: 'https://github.com/dimaMachina/nextra'
   }
 }

@@ -860,7 +860,7 @@
 - 283320f: remove `export const title` from generated mdx pages
 - 283320f: The initial version which supports App Router instead of Pages
   Router, something may be broken, check
-  https://github.com/shuding/nextra/tree/v4-v2/examples for the migration guide
+  https://github.com/dimaMachina/nextra/tree/v4-v2/examples for the migration guide
 - 283320f: fix focusing on first search result item
 - 283320f: remove `navbar` and `footer` props, pass `<Navbar>` and `<Footer>` as
   children of `<Layout>`
@@ -868,7 +868,7 @@
 - 283320f: migrate from react context to zustand
 - 283320f: - add root `_meta.global.{js,jsx,ts,tsx}` file
   > See
-  > [working example](https://github.com/shuding/nextra/blob/v4-v2/docs/app/_meta.global.ts)
+  > [working example](https://github.com/dimaMachina/nextra/blob/v4-v2/docs/app/_meta.global.ts)
   > based on https://nextra.site website
   - `getPageMap` now receive only 1 argument `root?: string = '/'` instead of 2
     `lang?: string, route?: string = '/'`
@@ -1356,7 +1356,7 @@
 
 - 8a0ae0f: - add root `_meta.global.{js,jsx,ts,tsx}` file
   > See
-  > [working example](https://github.com/shuding/nextra/blob/v4-v2/docs/app/_meta.global.ts)
+  > [working example](https://github.com/dimaMachina/nextra/blob/v4-v2/docs/app/_meta.global.ts)
   > based on https://nextra.site website
   - `getPageMap` now receive only 1 argument `root?: string = '/'` instead of 2
     `lang?: string, route?: string = '/'`
@@ -1849,7 +1849,7 @@
 
 - 99f34d3: The initial version which supports App Router instead of Pages
   Router, something may be broken, check
-  https://github.com/shuding/nextra/tree/v4-v2/examples for the migration guide
+  https://github.com/dimaMachina/nextra/tree/v4-v2/examples for the migration guide
 
 ### Patch Changes
 
@@ -3650,7 +3650,7 @@
 - a0398e0: fix: avoid mutating nextConfig
 - e6771ca: BREAKING! various theme config options was renamed, take a look of
   renamed options
-  [here](https://github.com/shuding/nextra/blob/core/packages/nextra-theme-docs/src/constants.tsx)
+  [here](https://github.com/dimaMachina/nextra/blob/core/packages/nextra-theme-docs/src/constants.tsx)
 - 59e18b0: make `nextra`/`nextra-theme-docs`/`nextra-theme-blog` be compatible
   with next 13
 - 38ccce8: feat(docs): allow `Tabs.items` as `ReadonlyArray<ReactNode>`
@@ -4039,7 +4039,7 @@
 - e6771ca: fix edit on github button for cases when filename named as `index`
 - e6771ca: BREAKING! various theme config options was renamed, take a look of
   renamed options
-  [here](https://github.com/shuding/nextra/blob/core/packages/nextra-theme-docs/src/constants.tsx)
+  [here](https://github.com/dimaMachina/nextra/blob/core/packages/nextra-theme-docs/src/constants.tsx)
 - 1ee3c92: reuse table styles from docs in blog
 - e6771ca: [Blog/Docs] Add copy to clipboard button for code-blocks. Add
   `NextraConfig.unstable_defaultShowCopyCode` option to show button by default,

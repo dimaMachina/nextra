@@ -156,7 +156,7 @@ export default $`
       .replace(/\.d.ts$/, '.tsx')
       .replace('/dist/', '/src/')
   // Add edit on GitHub link to points on a source file
-  res.metadata.filePath = `https://github.com/shuding/nextra/tree/main/${filePath}`
+  res.metadata.filePath = `https://github.com/dimaMachina/nextra/tree/main/${filePath}`
 
   return res
 }

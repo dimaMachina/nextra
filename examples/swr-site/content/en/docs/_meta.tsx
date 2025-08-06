@@ -44,7 +44,7 @@ export default {
   },
   github_link: {
     title: 'GitHub 🐙',
-    href: 'https://github.com/shuding/nextra'
+    href: 'https://github.com/dimaMachina/nextra'
   },
   'wrap-toc-items': 'Wrap Table of Content Items',
   'custom-header-ids': 'Custom Header IDs'
