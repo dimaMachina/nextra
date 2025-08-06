@@ -28,17 +28,17 @@ This hook is useful for dynamically configuring your project based on shared the
           "type": "string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...> | null",
         },
         {
-          "name": "feedback.link",
-          "optional": true,
-          "type": "string | undefined",
-        },
-        {
           "name": "feedback.content",
           "type": "string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...> | null",
         },
         {
           "name": "feedback.labels",
           "type": "string",
+        },
+        {
+          "name": "feedback.link",
+          "optional": true,
+          "type": "string | undefined",
         },
         {
           "name": "i18n",
@@ -57,11 +57,6 @@ This hook is useful for dynamically configuring your project based on shared the
           "type": "string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...> | null",
         },
         {
-          "name": "sidebar.autoCollapse",
-          "optional": true,
-          "type": "boolean | undefined",
-        },
-        {
           "name": "sidebar.defaultMenuCollapseLevel",
           "type": "number",
         },
@@ -72,6 +67,11 @@ This hook is useful for dynamically configuring your project based on shared the
         {
           "name": "sidebar.toggleButton",
           "type": "boolean",
+        },
+        {
+          "name": "sidebar.autoCollapse",
+          "optional": true,
+          "type": "boolean | undefined",
         },
         {
           "name": "themeSwitch.dark",
@@ -86,11 +86,6 @@ This hook is useful for dynamically configuring your project based on shared the
           "type": "string",
         },
         {
-          "name": "toc.extraContent",
-          "optional": true,
-          "type": "ReactNode",
-        },
-        {
           "name": "toc.backToTop",
           "type": "string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...> | null",
         },
@@ -101,6 +96,11 @@ This hook is useful for dynamically configuring your project based on shared the
         {
           "name": "toc.title",
           "type": "string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<...> | null",
+        },
+        {
+          "name": "toc.extraContent",
+          "optional": true,
+          "type": "ReactNode",
         },
       ],
     },
