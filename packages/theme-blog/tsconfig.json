@@ -11,7 +11,10 @@
     "jsx": "react-jsx",
     "moduleResolution": "bundler",
     "types": ["vitest/globals"],
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "next/image": ["./node_modules/next/image"]
+    }
   },
   "exclude": ["dist"]
 }
