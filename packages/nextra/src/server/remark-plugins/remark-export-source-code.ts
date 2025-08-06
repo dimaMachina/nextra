@@ -15,6 +15,7 @@ export const remarkExportSourceCode: Plugin<[{ sourceCode: string }], Root> =
             {
               type: 'ExportNamedDeclaration',
               specifiers: [],
+              attributes: [],
               declaration: {
                 type: 'VariableDeclaration',
                 kind: 'const',
