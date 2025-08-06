@@ -16,7 +16,7 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "6.0.0-rc1",
     "eslint-plugin-sonarjs": "3.0.3",
-    "eslint-plugin-tailwindcss": "3.17.3",
+    "eslint-plugin-tailwindcss": "3.18.2",
     "eslint-plugin-typescript-sort-keys": "3.3.0",
     "eslint-plugin-unicorn": "59.0.1",
     "typescript-eslint": "8.34.1"
