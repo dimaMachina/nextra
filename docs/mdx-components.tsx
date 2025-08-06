@@ -1,7 +1,7 @@
 import { getEnhancedPageMap } from '@components/get-page-map'
+import { useMDXComponents as getDocsMDXComponents } from '@nextra/theme-docs'
 import { generateDefinition, TSDoc } from '@nextra/tsdoc'
 import type { Folder } from 'nextra'
-import { useMDXComponents as getDocsMDXComponents } from '@nextra/theme-docs'
 import type { UseMDXComponents } from 'nextra/mdx-components'
 import type { ComponentProps } from 'react'
 
