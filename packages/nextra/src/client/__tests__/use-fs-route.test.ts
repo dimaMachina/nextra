@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/assertions-in-tests -- false positive */
 import { renderHook } from '@testing-library/react'
 import { usePathname } from 'next/navigation'
 import type { Mock } from 'vitest'
