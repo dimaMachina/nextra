@@ -22,7 +22,7 @@ npm i next nextra react react-dom
 ### Install the blog theme
 
 ```sh npm2yarn
-npm i nextra-theme-blog
+npm i @nextra/theme-blog
 ```
 
 ### Create the following Next.js config and theme config under the root directory:
@@ -31,7 +31,7 @@ npm i nextra-theme-blog
 import nextra from 'nextra'
 
 const withNextra = nextra({
-  theme: 'nextra-theme-blog',
+  theme: '@nextra/theme-blog',
   themeConfig: './theme.config.js'
 })
 export default withNextra()
@@ -70,7 +70,7 @@ export default {
 ### Create `pages/_app.js` and include the theme stylesheet:
 
 ```jsx filename="_app.js"
-import 'nextra-theme-blog/style.css'
+import '@nextra/theme-blog/style.css'
 
 export default function Nextra({ Component, pageProps }) {
   const getLayout = Component.getLayout || (page => page)

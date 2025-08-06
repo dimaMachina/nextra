@@ -10,9 +10,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@nextra/theme-blog": "workspace:*",
     "next": "^15.0.2",
     "nextra": "workspace:*",
-    "nextra-theme-blog": "workspace:*",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
