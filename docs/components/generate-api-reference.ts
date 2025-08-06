@@ -11,7 +11,7 @@ import {
   Tabs
 } from 'nextra/components'
 import { evaluate } from 'nextra/evaluate'
-import type { generateDefinition } from 'nextra/tsdoc'
+import type { generateDefinition } from '@nextra/tsdoc'
 import { BackgroundColor, Slider } from './_slider'
 import ExampleTSDoc from './example-tsdoc.mdx'
 import { PlaygroundDemo } from './playground-demo'

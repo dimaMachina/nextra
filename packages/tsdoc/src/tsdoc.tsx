@@ -114,12 +114,12 @@ const classes = {
  * To generate the props table for the `TSDoc` component shown on this page:
  *
  * ```mdx
- * import { generateDefinition, TSDoc } from 'nextra/tsdoc'
+ * import { generateDefinition, TSDoc } from '@nextra/tsdoc'
  *
  * <TSDoc
  *   definition={generateDefinition({
  *     code: `
- * import type { TSDoc } from 'nextra/tsdoc'
+ * import type { TSDoc } from '@nextra/tsdoc'
  * type MyProps = React.ComponentProps<typeof TSDoc>
  * export default MyProps`
  *   })}

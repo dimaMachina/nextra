@@ -42,7 +42,7 @@ let compilerObject: ts.TypeChecker
  * ### As a `default` export
  *
  * ```mdx
- * import { generateDefinition, TSDoc } from 'nextra/tsdoc'
+ * import { generateDefinition, TSDoc } from '@nextra/tsdoc'
  *
  * <TSDoc
  *   definition={generateDefinition({
@@ -54,7 +54,7 @@ let compilerObject: ts.TypeChecker
  * ### As a named export
  *
  * ```mdx
- * import { generateDefinition, TSDoc } from 'nextra/tsdoc'
+ * import { generateDefinition, TSDoc } from '@nextra/tsdoc'
  *
  * <TSDoc
  *   definition={generateDefinition({
