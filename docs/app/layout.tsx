@@ -70,7 +70,7 @@ const navbar = (
         )}
       />
     }
-    projectLink="https://github.com/shuding/nextra"
+    projectLink="https://github.com/dimaMachina/nextra"
   />
 )
 const footer = (
@@ -103,7 +103,7 @@ const RootLayout: FC<{
           banner={banner}
           navbar={navbar}
           pageMap={pageMap}
-          docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
+          docsRepositoryBase="https://github.com/dimaMachina/nextra/tree/main/docs"
           editLink="Edit this page on GitHub"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
           footer={footer}

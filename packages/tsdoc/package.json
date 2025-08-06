@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "description": "TSDoc integration for Nextra",
-  "repository": "github:shuding/nextra",
+  "repository": "github:dimaMachina/nextra",
   "homepage": "https://nextra.site",
   "author": "Dimitri POSTOLOV",
   "license": "MIT",

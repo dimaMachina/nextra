@@ -103,7 +103,7 @@ async function getReference(props: PageProps) {
       .replace(/\.d.ts$/, '.ts')
       .replace('/dist/', '/src/')
   // Add edit on GitHub link to points on a source file
-  result.metadata.filePath = `https://github.com/shuding/nextra/tree/main/${apiRef.filePath ?? filePath}`
+  result.metadata.filePath = `https://github.com/dimaMachina/nextra/tree/main/${apiRef.filePath ?? filePath}`
   return result
 }
 

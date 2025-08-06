@@ -14,7 +14,7 @@ export interface LayoutProps {
 
   /**
    * URL of the documentation repository.
-   * @default "https://github.com/shuding/nextra"
+   * @default "https://github.com/dimaMachina/nextra"
    */
   docsRepositoryBase?: string
 
@@ -45,9 +45,9 @@ export interface LayoutProps {
 
     /**
      * Feedback link URL.
-     * 
+     *
      * By default, it's a link to the issue creation form of the docs repository, with the current page title prefilled:
-     * [example](https://github.com/shuding/nextra/issues/new?title=Feedback%20for%20%E2%80%9CTheme%20Configuration%E2%80%9D&labels=feedback).
+     * [example](https://github.com/dimaMachina/nextra/issues/new?title=Feedback%20for%20%E2%80%9CTheme%20Configuration%E2%80%9D&labels=feedback).
      */
     link?: string
   }

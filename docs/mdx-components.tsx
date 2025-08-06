@@ -80,9 +80,9 @@ export default $`
           RehypePrettyCodeOptions: 'https://rehype-pretty.pages.dev/#options',
           PluggableList: 'https://github.com/unifiedjs/unified#pluggablelist',
           GitHubIcon:
-            'https://github.com/shuding/nextra/blob/main/packages/nextra/src/client/icons/github.svg',
+            'https://github.com/dimaMachina/nextra/blob/main/packages/nextra/src/client/icons/github.svg',
           DiscordIcon:
-            'https://github.com/shuding/nextra/blob/main/packages/nextra/src/client/icons/discord.svg',
+            'https://github.com/dimaMachina/nextra/blob/main/packages/nextra/src/client/icons/discord.svg',
           PagefindSearchOptions:
             'https://github.com/CloudCannon/pagefind/blob/248f81d172316a642a83527fa92180abbb7f9c49/pagefind_web_js/types/index.d.ts#L72-L82',
           ReactNode:
@@ -90,17 +90,17 @@ export default $`
           ReactElement:
             'https://github.com/DefinitelyTyped/DefinitelyTyped/blob/d44fce6cd8765acbdb0256195e5f16f67471430d/types/react/index.d.ts#L315-L322',
           TabItem:
-            'https://github.com/shuding/nextra/blob/fb376a635de7fa287d5ffec9dbb5f40f1cfdb0f6/packages/nextra/src/client/components/tabs/index.client.tsx#L21',
+            'https://github.com/dimaMachina/nextra/blob/fb376a635de7fa287d5ffec9dbb5f40f1cfdb0f6/packages/nextra/src/client/components/tabs/index.client.tsx#L21',
           TabObjectItem:
-            'https://github.com/shuding/nextra/blob/fb376a635de7fa287d5ffec9dbb5f40f1cfdb0f6/packages/nextra/src/client/components/tabs/index.client.tsx#L23',
+            'https://github.com/dimaMachina/nextra/blob/fb376a635de7fa287d5ffec9dbb5f40f1cfdb0f6/packages/nextra/src/client/components/tabs/index.client.tsx#L23',
           PageMapItem:
-            'https://github.com/shuding/nextra/blob/fb376a635de7fa287d5ffec9dbb5f40f1cfdb0f6/packages/nextra/src/types.ts#L66',
+            'https://github.com/dimaMachina/nextra/blob/fb376a635de7fa287d5ffec9dbb5f40f1cfdb0f6/packages/nextra/src/types.ts#L66',
           // ThemeProviderProps:
           //   'https://github.com/pacocoursey/next-themes/blob/c89d0191ce0f19215d7ddfa9eb28e1e4f94d37e5/next-themes/src/types.ts#L34-L57',
           LastUpdated:
-            'https://github.com/shuding/nextra/blob/main/packages/nextra-theme-docs/src/components/last-updated.tsx',
+            'https://github.com/dimaMachina/nextra/blob/main/packages/nextra-theme-docs/src/components/last-updated.tsx',
           MDXRemote:
-            'https://github.com/shuding/nextra/blob/main/packages/nextra/src/client/mdx-remote.tsx',
+            'https://github.com/dimaMachina/nextra/blob/main/packages/nextra/src/client/mdx-remote.tsx',
           MDXComponents:
             'https://github.com/DefinitelyTyped/DefinitelyTyped/blob/4c3811099cbe9ee60151c11a679b780d0ba785bf/types/mdx/types.d.ts#L65',
           ComboboxInputProps:

@@ -6,7 +6,7 @@ on:
 
 jobs:
   release:
-    if: github.repository == 'shuding/nextra'
+    if: github.repository == 'dimaMachina/nextra'
 
     runs-on: ubuntu-latest
 
