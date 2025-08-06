@@ -1,5 +1,5 @@
 {
-  "name": "nextra-theme-docs",
+  "name": "@nextra/theme-docs",
   "version": "4.3.0",
   "description": "A Nextra theme for documentation sites.",
   "repository": "https://github.com/dimaMachina/nextra",

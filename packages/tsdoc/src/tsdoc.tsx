@@ -35,7 +35,7 @@ type TSDocProps = {
   noParametersContent?: ReactNode
 }
 
-// copied from nextra-theme-docs
+// copied from @nextra/theme-docs
 const Link: typeof Anchor = ({ className, ...props }) => {
   return (
     <Anchor

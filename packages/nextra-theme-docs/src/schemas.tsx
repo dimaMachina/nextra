@@ -132,7 +132,7 @@ export const LayoutPropsSchema = z.strictObject({
       error: `\`Layout#lastUpdated\` must be a \`<LastUpdated />\` component:
 
 \`\`\`js
-import { Layout, LastUpdated } from 'nextra-theme-docs'
+import { Layout, LastUpdated } from '@nextra/theme-docs'
 
 <Layout
   lastUpdated={<LastUpdated locale="YOUR_LOCALE">YOUR_CONTENT</LastUpdated>}

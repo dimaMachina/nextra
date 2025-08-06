@@ -33,21 +33,21 @@ To create a Nextra Docs site manually, you have to install **Next.js**,
 the following command to install the dependencies:
 
 ```sh npm2yarn
-npm i next react react-dom nextra nextra-theme-docs
+npm i next react react-dom nextra @nextra/theme-docs
 ```
 
 > [!NOTE]
 >
 > If you already have Next.js installed in your project, you only need to
-> install `nextra` and `nextra-theme-docs` as the add-ons.
+> install `nextra` and `@nextra/theme-docs` as the add-ons.
 
 <InstallNextraTheme />
 
 ```jsx filename="app/layout.jsx"
-import { Footer, Layout, Navbar } from 'nextra-theme-docs'
+import { Footer, Layout, Navbar } from '@nextra/theme-docs'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
-import 'nextra-theme-docs/style.css'
+import '@nextra/theme-docs/style.css'
 
 export const metadata = {
   // Define your metadata here

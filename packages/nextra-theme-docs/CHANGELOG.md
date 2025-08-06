@@ -1,4 +1,4 @@
-# nextra-theme-docs
+# @nextra/theme-docs
 
 ## 4.3.0
 

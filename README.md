@@ -30,10 +30,10 @@ pnpm --filter nextra build
 
 Watch mode: `pnpm --filter nextra dev`
 
-### Build `nextra-theme-docs`
+### Build `@nextra/theme-docs`
 
 ```bash
-pnpm --filter nextra-theme-docs build
+pnpm --filter @nextra/theme-docs build
 ```
 
 ### Development

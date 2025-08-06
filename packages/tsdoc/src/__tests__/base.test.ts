@@ -1,4 +1,4 @@
-import { LayoutPropsSchema } from '../../../nextra-theme-docs/src/schemas.js'
+import { LayoutPropsSchema } from '../../../theme-docs/src/schemas.js'
 import { HeadPropsSchema } from '../../../nextra/src/client/components/head.js'
 import { NextraConfigSchema } from '../../../nextra/src/server/schemas.js'
 import { generateDefinition } from '../base.js'
@@ -308,7 +308,7 @@ export default $$`
     `)
   })
   test('<NotFoundPage />', async () => {
-    const code = `import type { NotFoundPage } from 'nextra-theme-docs'
+    const code = `import type { NotFoundPage } from '@nextra/theme-docs'
 type $ = React.ComponentProps<typeof NotFoundPage>
 export default $`
     const result = generateDefinition({ code })
@@ -354,7 +354,7 @@ export default $`
     `)
   })
   test('<Navbar />', async () => {
-    const code = `import { Navbar } from 'nextra-theme-docs'
+    const code = `import { Navbar } from '@nextra/theme-docs'
 type $ = React.ComponentProps<typeof Navbar>
 export default $`
     const result = generateDefinition({ code })
@@ -455,7 +455,7 @@ export default Connection`
   describe('functions', () => {
     test('should flatten return type for useThemeConfig', async () => {
       const code =
-        'export { useThemeConfig as default } from "../nextra-theme-docs/src"'
+        'export { useThemeConfig as default } from "../theme-docs/src"'
       const result = generateDefinition({ code, flattened: true })
       await expect(result).toMatchFileSnapshot(
         './snapshots/use-theme-config.json'
@@ -471,7 +471,7 @@ export default Connection`
     })
 
     test('should flatten return type for useConfig', async () => {
-      const code = 'export { useConfig as default } from "nextra-theme-docs"'
+      const code = 'export { useConfig as default } from "@nextra/theme-docs"'
       const result = generateDefinition({ code, flattened: true })
       await expect(result).toMatchFileSnapshot('./snapshots/use-config.json')
     })

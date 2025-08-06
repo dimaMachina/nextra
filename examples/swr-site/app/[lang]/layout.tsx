@@ -8,7 +8,7 @@ import {
   Link,
   LocaleSwitch,
   Navbar
-} from 'nextra-theme-docs'
+} from '@nextra/theme-docs'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import type { FC, ReactNode } from 'react'
