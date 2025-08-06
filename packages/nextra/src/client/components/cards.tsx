@@ -63,7 +63,7 @@ const _Cards: FC<
     <div
       className={cn(
         'nextra-cards x:mt-4 x:gap-4 x:grid',
-        'not-prose', // for nextra-theme-blog
+        'not-prose', // for @nextra/theme-blog
         className
       )}
       {...props}

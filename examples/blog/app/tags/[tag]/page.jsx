@@ -1,4 +1,4 @@
-import { PostCard } from 'nextra-theme-blog'
+import { PostCard } from '@nextra/theme-blog'
 import { getPosts, getTags } from '../../posts/get-posts'
 
 export async function generateMetadata(props) {

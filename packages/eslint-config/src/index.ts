@@ -235,10 +235,10 @@ const config: Config = tseslint.config(
       'tailwindcss/no-custom-classname': 'off'
     }
   },
-  // ⚙️ nextra-theme-blog
+  // ⚙️ @nextra/theme-blog
   {
     // ...TAILWIND_CONFIG,
-    files: ['packages/nextra-theme-blog/**'],
+    files: ['packages/theme-blog/**'],
     rules: {
       // ...TAILWIND_CONFIG.rules,
       'no-restricted-imports': [

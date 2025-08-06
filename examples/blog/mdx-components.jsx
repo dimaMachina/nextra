@@ -1,4 +1,4 @@
-import { useMDXComponents as getBlogMDXComponents } from 'nextra-theme-blog'
+import { useMDXComponents as getBlogMDXComponents } from '@nextra/theme-blog'
 
 const blogComponents = getBlogMDXComponents({
   h1: ({ children }) => (

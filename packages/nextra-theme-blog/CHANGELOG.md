@@ -1,4 +1,4 @@
-# nextra-theme-blog
+# @nextra/theme-blog
 
 ## 4.3.0
 

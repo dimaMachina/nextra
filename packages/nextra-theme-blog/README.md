@@ -1,4 +1,4 @@
-# nextra-theme-blog
+# @nextra/theme-blog
 
 A blog site theme for [Nextra](https://github.com/dimaMachina/nextra).
 

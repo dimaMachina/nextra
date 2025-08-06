@@ -184,7 +184,7 @@ const nextra = (nextraConfig: NextraConfig) => {
         optimizePackageImports: [
           'nextra/components',
           'nextra-theme-docs',
-          'nextra-theme-blog',
+          '@nextra/theme-blog',
           ...(nextConfig.experimental?.optimizePackageImports || [])
         ],
         ...(!shouldUseConfigTurbopack && { turbo: turbopack })
