@@ -22,7 +22,7 @@ import {
   TerraformIcon,
   TypeScriptIcon
 } from '../icons/index.js'
-import type { PreProps } from '../mdx-components/pre'
+import type { PreProps } from '../mdx-components/pre/index.js'
 
 function getIcon(language: string) {
   switch (language) {

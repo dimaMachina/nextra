@@ -4,7 +4,7 @@ import { Button as HeadlessButton } from '@headlessui/react'
 import type { ButtonProps as HeadlessButtonProps } from '@headlessui/react'
 import cn from 'clsx'
 import type { FC } from 'react'
-import { classes } from '../mdx-components/pre'
+import { classes } from '../mdx-components/pre/index.js'
 
 export type ButtonProps = HeadlessButtonProps & {
   variant?: 'outline' | 'default'
