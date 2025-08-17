@@ -17,7 +17,6 @@ export default defineConfig({
   splitting: IS_PRODUCTION,
   clean: IS_PRODUCTION,
   bundle: false,
-  external: ['shiki', 'webpack'],
   async onSuccess() {
     // Fixes hydration errors in client apps due "type": "module" in root package.json
     const clientPackageJSON = path.resolve('dist', 'client', 'package.json')
