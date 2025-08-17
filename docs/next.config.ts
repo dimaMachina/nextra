@@ -80,7 +80,12 @@ const nextConfig = withNextra({
     // ESLint behaves weirdly in this monorepo.
     ignoreDuringBuilds: true
   },
-  output: 'export',
+  ...(process.env.NODE_ENV === 'production' && {
+    output: 'export',
+    images: {
+      unoptimized: true
+    }
+  }),
   redirects: async () => [
     {
       source: '/docs/guide/:slug(typescript|latex|tailwind-css|mermaid)',
