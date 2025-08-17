@@ -68,6 +68,9 @@ importers:
       '@nextra/tsdoc':
         specifier: workspace:*
         version: link:../packages/tsdoc
+      '@nextra/ui':
+        specifier: workspace:*
+        version: link:../packages/ui
       clsx:
         specifier: ^2.1.0
         version: 2.1.1
@@ -114,6 +117,9 @@ importers:
       '@nextra/theme-blog':
         specifier: workspace:*
         version: link:../../packages/theme-blog
+      '@nextra/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       next:
         specifier: 15.4.6
         version: 15.4.6(patch_hash=50cce18d7123018948de67ca6a7fec975a9efb878ce48f035b22a36138d8809a)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -133,6 +139,9 @@ importers:
 
   examples/custom-theme:
     dependencies:
+      '@nextra/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       next:
         specifier: 15.4.6
         version: 15.4.6(patch_hash=50cce18d7123018948de67ca6a7fec975a9efb878ce48f035b22a36138d8809a)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -161,6 +170,9 @@ importers:
       '@nextra/theme-docs':
         specifier: workspace:*
         version: link:../../packages/theme-docs
+      '@nextra/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       next:
         specifier: 15.4.6
         version: 15.4.6(patch_hash=50cce18d7123018948de67ca6a7fec975a9efb878ce48f035b22a36138d8809a)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -183,6 +195,9 @@ importers:
       '@nextra/theme-docs':
         specifier: workspace:*
         version: link:../../packages/theme-docs
+      '@nextra/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       markdown-to-jsx:
         specifier: ^7.4.0
         version: 7.4.0(react@19.1.0)
