@@ -1,7 +1,7 @@
-import type { MDXWrapper } from 'nextra'
 import type { ComponentPropsWithoutRef, FC, JSX } from 'react'
-import { ImageZoom } from './components/image-zoom.js'
-import { Anchor } from './mdx-components/anchor.js'
+import type { MDXWrapper } from '../../types.js'
+import { Anchor } from './anchor.js'
+import { ImageZoom } from './image-zoom.js'
 
 /**
  * A valid JSX string component.
