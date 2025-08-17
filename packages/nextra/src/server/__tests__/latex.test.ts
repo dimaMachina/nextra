@@ -123,7 +123,7 @@ describe('LaTeX', () => {
         import { useMDXComponents as _provideComponents } from 'next-mdx-import-source-file'
         export const metadata = {}
         export const sourceCode = '$a=\\\\sqrt{b^2 + c^2}$'
-        import { MathJax, MathJaxContext } from 'nextra/components'
+        import { MathJax, MathJaxContext } from '@nextra/ui'
         function useTOC(props) {
           return []
         }
@@ -156,7 +156,7 @@ describe('LaTeX', () => {
         import { useMDXComponents as _provideComponents } from 'next-mdx-import-source-file'
         export const metadata = {}
         export const sourceCode = '\`\`\`math\\nx^2\\n\`\`\`'
-        import { MathJax, MathJaxContext } from 'nextra/components'
+        import { MathJax, MathJaxContext } from '@nextra/ui'
         function useTOC(props) {
           return []
         }
@@ -191,7 +191,7 @@ ${MATH_LANG}`
         import foo from 'foo'
         export let bar
         export const sourceCode = "$a=\\\\sqrt{b^2 + c^2}$\\n\\nimport foo from 'foo'\\n\\nexport let bar\\n\\n\`\`\`math\\nx^2\\n\`\`\`"
-        import { MathJax, MathJaxContext } from 'nextra/components'
+        import { MathJax, MathJaxContext } from '@nextra/ui'
         function useTOC(props) {
           return []
         }
