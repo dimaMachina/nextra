@@ -3,7 +3,7 @@
 import { notFound } from 'next/navigation'
 import { getRouteToFilepath } from '../../nextra/src/server/page-map/get.js'
 import { logger } from '../../nextra/src/server/utils.js'
-import type { EvaluateResult } from '../../nextra/src/types.js'
+import type { EvaluateResult } from 'nextra'
 
 /**
  * Function to import an MDX/Markdown page from the `content` directory.
