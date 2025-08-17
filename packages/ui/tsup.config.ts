@@ -2,9 +2,9 @@ import path from 'node:path'
 import svgr from 'esbuild-plugin-svgr'
 import { reactCompilerPlugin } from 'esbuild-react-compiler-plugin'
 import { defineConfig } from 'tsup'
-import { defaultEntry } from './default-entry.js'
+import { defaultEntry } from '../nextra/default-entry.js'
 import packageJson from './package.json'
-import { IS_PRODUCTION } from './src/server/constants.js'
+import { IS_PRODUCTION } from '../nextra/src/server/constants.js'
 
 const SEP = path.sep === '/' ? '/' : '\\\\'
 
