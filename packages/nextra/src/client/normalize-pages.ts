@@ -1,9 +1,9 @@
 'use no memo'
 
-import type { Folder, FrontMatter, MdxFile, PageMapItem } from 'nextra'
-import type { itemSchema, menuSchema } from 'nextra/schemas'
 import type { ReactNode } from 'react'
 import type { z } from 'zod'
+import type { itemSchema, menuSchema } from '../server/schemas.js'
+import type { Folder, FrontMatter, MdxFile, PageMapItem } from '../types.js'
 
 const DEFAULT_PAGE_THEME: PageTheme = {
   breadcrumb: true,
