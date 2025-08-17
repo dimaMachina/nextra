@@ -13,7 +13,5 @@
     "resolveJsonModule": true,
     "noUncheckedIndexedAccess": true
   },
-  "exclude": [
-    "dist"
-  ]
+  "exclude": ["dist"]
 }
