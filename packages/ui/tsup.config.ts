@@ -10,12 +10,13 @@ const SEP = path.sep === '/' ? '/' : '\\\\'
 
 export default defineConfig({
   name: packageJson.name,
-  entry: [...defaultEntry, '!src/icon.ts', 'src/**/*.svg'],
+  entry: [...defaultEntry, '!src/icon.ts', 'src/icons/*.svg'],
   format: 'esm',
   dts: true,
   splitting: IS_PRODUCTION,
   clean: IS_PRODUCTION,
   bundle: false,
+  outExtension: () => ({ js: '.js' }),
   esbuildPlugins: [
     svgr({
       exportType: 'named',
@@ -26,7 +27,7 @@ export default defineConfig({
       plugins: ['@svgr/plugin-svgo']
     }),
     reactCompilerPlugin({
-      filter: new RegExp(String.raw`/nextra/src/.+$`.replaceAll('/', SEP))
+      filter: new RegExp(String.raw`/src/.+$`.replaceAll('/', SEP))
     })
   ],
   plugins: [
