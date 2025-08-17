@@ -6,7 +6,7 @@ import {
   GitHubNoteIcon,
   GitHubTipIcon,
   GitHubWarningIcon
-} from '../icons'
+} from '../icons/index.js'
 
 const TypeToEmoji = {
   default: <GitHubTipIcon height=".8em" className="x:mt-[.3em]" />,

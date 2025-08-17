@@ -21,7 +21,7 @@ import {
   TerminalIcon,
   TerraformIcon,
   TypeScriptIcon
-} from '../icons'
+} from '../icons/index.js'
 import type { PreProps } from '../mdx-components/pre'
 
 function getIcon(language: string) {

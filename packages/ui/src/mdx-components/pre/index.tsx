@@ -1,6 +1,6 @@
 import cn from 'clsx'
 import type { FC, HTMLAttributes, ReactNode } from 'react'
-import { WordWrapIcon } from '../../icons'
+import { WordWrapIcon } from '../../icons/index.js'
 import { CopyToClipboard } from './copy-to-clipboard.js'
 import { ToggleWordWrapButton } from './toggle-word-wrap-button.js'
 

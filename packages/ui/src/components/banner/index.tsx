@@ -1,6 +1,6 @@
 import cn from 'clsx'
 import type { FC, HTMLAttributes } from 'react'
-import { XIcon } from '../../icons'
+import { XIcon } from '../../icons/index.js'
 import { CloseBannerButton } from './close-banner-button.js'
 import { ClientBanner } from './index.client'
 

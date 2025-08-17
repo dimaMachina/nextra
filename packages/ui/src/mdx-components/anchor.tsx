@@ -2,7 +2,7 @@ import cn from 'clsx'
 import Link from 'next/link'
 import type { ComponentPropsWithoutRef, FC } from 'react'
 import { EXTERNAL_URL_RE } from '../../../nextra/src/server/constants.js'
-import { LinkArrowIcon } from '../icons'
+import { LinkArrowIcon } from '../icons/index.js'
 
 type NextLinkProps = ComponentPropsWithoutRef<typeof Link>
 

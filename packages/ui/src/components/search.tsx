@@ -19,9 +19,9 @@ import type {
   SyntheticEvent
 } from 'react'
 import { useDeferredValue, useEffect, useRef, useState } from 'react'
-import type { PagefindSearchOptions } from '../../../nextra/src/types.js'
+import type { PagefindSearchOptions } from '../types.js'
 import { useMounted } from '../hooks/use-mounted.js'
-import { InformationCircleIcon, SpinnerIcon } from '../icons'
+import { InformationCircleIcon, SpinnerIcon } from '../icons/index.js'
 
 // Fix React Compiler (BuildHIR::lowerExpression) Handle Import expressions
 export async function importPagefind() {

@@ -1,6 +1,6 @@
 import cn from 'clsx'
 import type { FC, ReactNode } from 'react'
-import { FileIcon } from '../../icons'
+import { FileIcon } from '../../icons/index.js'
 
 export type FileProps = {
   name: ReactNode
