@@ -1,4 +1,4 @@
-export { Pre } from './pre'
+export { Pre } from './pre/index.js'
 export { Anchor } from './anchor.js'
 export { Code } from './code.js'
 export { Details } from './details.js'
