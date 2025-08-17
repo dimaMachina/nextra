@@ -1,7 +1,7 @@
+import { Anchor, Callout, Code, Tabs } from '@nextra/ui'
 import cn from 'clsx'
 import Slugger from 'github-slugger'
 import { compileMdx } from 'nextra/compile'
-import { Anchor, Callout, Code, Tabs } from 'nextra/components'
 import { MDXRemote } from 'nextra/mdx-remote'
 import type { FC, ReactElement, ReactNode } from 'react'
 import type { generateDefinition } from './base.js'

@@ -1,5 +1,5 @@
+import { Search } from '@nextra/ui'
 import type { PageMapItem } from 'nextra'
-import { Search } from 'nextra/components'
 import { element, reactNode } from 'nextra/schemas'
 import { Fragment } from 'react'
 import { z } from 'zod'

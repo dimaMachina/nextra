@@ -1,9 +1,9 @@
 'use no memo'
 
-import type { EvaluateResult } from '../types.js'
-import type { MDXComponents } from './mdx-components.js'
 import jsxDevRuntime from 'react/jsx-dev-runtime'
 import jsxRuntime from 'react/jsx-runtime'
+import type { EvaluateResult } from '../types.js'
+import type { MDXComponents } from './mdx-components.js'
 
 const runtime =
   process.env.NODE_ENV === 'production' ? jsxRuntime : jsxDevRuntime
