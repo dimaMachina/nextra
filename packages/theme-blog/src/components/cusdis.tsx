@@ -1,8 +1,8 @@
 'use client'
 
+import { useMounted } from '@nextra/ui'
 import { useTheme } from 'next-themes'
 import { usePathname } from 'next/navigation'
-import { useMounted } from 'nextra/hooks'
 import type { FC } from 'react'
 import { useEffect } from 'react'
 
