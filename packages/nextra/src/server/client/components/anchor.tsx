@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import type { ComponentPropsWithoutRef, FC } from 'react'
-import { EXTERNAL_URL_RE } from '../constants.js'
+import { EXTERNAL_URL_RE } from '../../constants.js'
 
 type NextLinkProps = ComponentPropsWithoutRef<typeof Link>
 

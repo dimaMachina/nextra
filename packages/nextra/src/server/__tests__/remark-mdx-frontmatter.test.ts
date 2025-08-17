@@ -1,4 +1,4 @@
-import { evaluate } from '../../../../ui/src/evaluate.js'
+import { evaluate } from '../client/evaluate.js'
 import { compileMdx } from '../compile.js'
 import { clean } from './test-utils.js'
 

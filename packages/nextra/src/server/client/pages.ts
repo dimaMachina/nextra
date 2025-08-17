@@ -1,9 +1,9 @@
 'use no memo'
 
 import { notFound } from 'next/navigation'
-import type { EvaluateResult } from 'nextra'
-import { getRouteToFilepath } from '../../nextra/src/server/page-map/get.js'
-import { logger } from '../../nextra/src/server/utils.js'
+import type { EvaluateResult } from '../../types.js'
+import { getRouteToFilepath } from '../page-map/get.js'
+import { logger } from '../utils.js'
 
 /**
  * Function to import an MDX/Markdown page from the `content` directory.

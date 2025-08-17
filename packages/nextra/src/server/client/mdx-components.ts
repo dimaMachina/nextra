@@ -1,7 +1,7 @@
 import type { ComponentPropsWithoutRef, FC, JSX } from 'react'
 import type { MDXWrapper } from '../../types.js'
-import { Anchor } from './anchor.js'
-import { ImageZoom } from './image-zoom.js'
+import { Anchor } from './components/anchor.js'
+import { ImageZoom } from './components/image-zoom.js'
 
 /**
  * A valid JSX string component.
