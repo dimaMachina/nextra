@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "pnpm@10.14.0",
   "scripts": {
-    "build": "turbo run build --filter=./packages/\\*",
+    "build": "turbo run build --filter=./packages/\\* --filter=./internal/\\*",
     "build:all": "turbo run build",
     "clean": "rm -rf .turbo && pnpm -r exec sh -c 'rm -rf dist .next .turbo'",
     "dev": "turbo run dev --filter=./packages/\\*",
@@ -12,7 +12,7 @@
     "dev:theme-i18n": "turbo run dev --filter=swr-site... --filter=!docs",
     "dev:website": "turbo run dev --filter=docs...",
     "lint": "ESLINT_USE_FLAT_CONFIG=true eslint --config internal/eslint-config/src/index.ts --cache --max-warnings 0 .",
-    "lint:prettier": "prettier --config packages/prettier-config/src/index.js --cache --check --ignore-path .gitignore --ignore-path .prettierignore .",
+    "lint:prettier": "prettier --config internal/prettier-config/src/index.js --cache --check --ignore-path .gitignore --ignore-path .prettierignore .",
     "postinstall": "pnpm build",
     "prettier": "pnpm lint:prettier --write",
     "release": "changeset publish",
