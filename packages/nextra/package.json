@@ -123,7 +123,6 @@
     "@types/negotiator": "^0.6.3",
     "@types/react": "^19.1.8",
     "@types/webpack": "^5.28.5",
-    "@vitejs/plugin-react": "^4.3.4",
     "esbuild-plugin-svgr": "^3.1.1",
     "esbuild-react-compiler-plugin": "workspace:*",
     "mdast-util-mdx-jsx": "^3.1.3",
