@@ -1,7 +1,7 @@
 import type { FC } from 'react'
 import { z } from 'zod'
-import { reactNode } from '../../../nextra/src/server/schemas.js'
-import type { HeadProps } from '../../../nextra/src/types.generated.js'
+import { reactNode } from 'nextra/schemas'
+import type { HeadProps } from '../types.generated.js'
 
 const darkLightSchema = z.union([
   z.number(),
