@@ -17,7 +17,7 @@ const MATHJAX_IMPORTS: MdxjsEsmHast = {
       body: [
         {
           type: 'ImportDeclaration',
-          source: { type: 'Literal', value: 'nextra/components' },
+          source: { type: 'Literal', value: '@nextra/ui' },
           attributes: [],
           specifiers: ['MathJax', 'MathJaxContext'].map(name => ({
             type: 'ImportSpecifier',

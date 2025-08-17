@@ -1,10 +1,10 @@
 {
   "name": "@nextra/ui",
-  "private": true,
   "version": "4.3.0",
   "description": "Next.js and MDX based site generator.",
   "repository": "https://github.com/dimaMachina/nextra",
   "license": "MIT",
+  "private": true,
   "engines": {
     "node": ">=18"
   },

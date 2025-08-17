@@ -1,7 +1,7 @@
 'use client'
 
+import { Anchor } from '@nextra/ui'
 import cn from 'clsx'
-import { Anchor } from 'nextra/components'
 import type { FC } from 'react'
 import { useEffect, useRef } from 'react'
 import scrollIntoView from 'scroll-into-view-if-needed'

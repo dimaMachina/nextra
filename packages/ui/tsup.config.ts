@@ -3,8 +3,8 @@ import svgr from 'esbuild-plugin-svgr'
 import { reactCompilerPlugin } from 'esbuild-react-compiler-plugin'
 import { defineConfig } from 'tsup'
 import { defaultEntry } from '../nextra/default-entry.js'
-import packageJson from './package.json'
 import { IS_PRODUCTION } from '../nextra/src/server/constants.js'
+import packageJson from './package.json'
 
 const SEP = path.sep === '/' ? '/' : '\\\\'
 
@@ -26,9 +26,7 @@ export default defineConfig({
       plugins: ['@svgr/plugin-svgo']
     }),
     reactCompilerPlugin({
-      filter: new RegExp(
-        String.raw`/nextra/src/.+$`.replaceAll('/', SEP)
-      )
+      filter: new RegExp(String.raw`/nextra/src/.+$`.replaceAll('/', SEP))
     })
   ],
   plugins: [

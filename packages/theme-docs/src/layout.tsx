@@ -1,6 +1,6 @@
 /* eslint sort-keys: error */
+import { SkipNavLink } from '@nextra/ui'
 import { ThemeProvider } from 'next-themes'
-import { SkipNavLink } from 'nextra/components'
 import type { FC } from 'react'
 import { z } from 'zod'
 import { MobileNav } from './components/sidebar'
