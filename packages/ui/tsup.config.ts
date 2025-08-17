@@ -1,4 +1,3 @@
-import fs from 'node:fs/promises'
 import path from 'node:path'
 import svgr from 'esbuild-plugin-svgr'
 import { reactCompilerPlugin } from 'esbuild-react-compiler-plugin'
@@ -17,11 +16,6 @@ export default defineConfig({
   splitting: IS_PRODUCTION,
   clean: IS_PRODUCTION,
   bundle: false,
-  async onSuccess() {
-    // Fixes hydration errors in client apps due "type": "module" in root package.json
-    const clientPackageJSON = path.resolve('dist', 'client', 'package.json')
-    await fs.writeFile(clientPackageJSON, '{"sideEffects":false}')
-  },
   esbuildPlugins: [
     svgr({
       exportType: 'named',
@@ -33,7 +27,7 @@ export default defineConfig({
     }),
     reactCompilerPlugin({
       filter: new RegExp(
-        String.raw`/nextra/src/client/.+$`.replaceAll('/', SEP)
+        String.raw`/nextra/src/.+$`.replaceAll('/', SEP)
       )
     })
   ],
