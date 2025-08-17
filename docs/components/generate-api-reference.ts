@@ -1,16 +1,8 @@
 import { BoxIcon, CardsIcon, OneIcon, WarningIcon } from '@components/icons'
 import type { generateDefinition } from '@nextra/tsdoc'
+import { Bleed, Callout, Cards, FileTree, Steps, Table, Tabs } from '@nextra/ui'
 import { useMDXComponents as getMDXComponents } from 'next-mdx-import-source-file'
 import { compileMdx } from 'nextra/compile'
-import {
-  Bleed,
-  Callout,
-  Cards,
-  FileTree,
-  Steps,
-  Table,
-  Tabs
-} from 'nextra/components'
 import { evaluate } from 'nextra/evaluate'
 import { BackgroundColor, Slider } from './_slider'
 import ExampleTSDoc from './example-tsdoc.mdx'

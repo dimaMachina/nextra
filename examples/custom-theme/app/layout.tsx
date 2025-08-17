@@ -1,5 +1,5 @@
+import { Head } from '@nextra/ui'
 import type { Metadata } from 'next'
-import { Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import type { FC, ReactNode } from 'react'
 import { NextraTheme } from './_components/nextra-theme'
