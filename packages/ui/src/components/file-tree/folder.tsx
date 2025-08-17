@@ -3,7 +3,7 @@
 import cn from 'clsx'
 import { useState } from 'react'
 import type { FC, ReactNode } from 'react'
-import { FolderIcon, FolderOpenIcon } from '../../icons/index.js'
+import { FolderIcon, FolderOpenIcon } from '../../icons'
 import { Button } from '../button.js'
 import type { FileProps } from './file.js'
 

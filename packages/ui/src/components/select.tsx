@@ -10,7 +10,7 @@ import type { AnchorPropsWithSelection } from '@headlessui/react/dist/internal/f
 import cn from 'clsx'
 import type { Dispatch, FC, ReactNode } from 'react'
 import { Fragment } from 'react'
-import { CheckIcon } from '../icons/index.js'
+import { CheckIcon } from '../icons'
 
 interface MenuOption {
   id: string

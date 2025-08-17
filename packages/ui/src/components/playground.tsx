@@ -119,5 +119,5 @@ export const Playground: FC<PlaygroundProps> = ({
 
 // Otherwise react-compiler fails
 function importCompile() {
-  return import('../../server/compile.js')
+  return import('../../../nextra/src/server/compile.js')
 }

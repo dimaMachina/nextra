@@ -1,5 +1,5 @@
 import type { ComponentPropsWithoutRef, FC, JSX } from 'react'
-import type { MDXWrapper } from '../types.js'
+import type { MDXWrapper } from '../../nextra/src/types.js'
 import { ImageZoom } from './components/image-zoom.js'
 import { Anchor } from './mdx-components/anchor.js'
 

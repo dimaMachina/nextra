@@ -3,7 +3,7 @@
 import type { FC, HTMLAttributes, MouseEvent } from 'react'
 import { Button } from '../../components/button.js'
 import { useCopy } from '../../hooks/use-copy.js'
-import { CheckIcon, CopyIcon } from '../../icons/index.js'
+import { CheckIcon, CopyIcon } from '../../icons'
 
 export const CopyToClipboard: FC<HTMLAttributes<HTMLButtonElement>> = props => {
   const { copy, isCopied } = useCopy()

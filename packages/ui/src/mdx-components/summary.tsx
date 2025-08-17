@@ -1,6 +1,6 @@
 import cn from 'clsx'
 import type { FC, HTMLAttributes } from 'react'
-import { ArrowRightIcon, LinkIcon } from '../icons/index.js'
+import { ArrowRightIcon, LinkIcon } from '../icons'
 
 export const Summary: FC<HTMLAttributes<HTMLElement>> = ({
   children,
