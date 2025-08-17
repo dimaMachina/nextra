@@ -1,4 +1,4 @@
-import { NextraConfigSchema } from '../../../nextra/src/server/schemas.js'
+import { NextraConfigSchema } from 'nextra/schemas'
 import { LayoutPropsSchema } from '../../../theme-docs/src/schemas.js'
 import { HeadPropsSchema } from '../../../ui/src/components/head.js'
 import { generateDefinition } from '../base.js'

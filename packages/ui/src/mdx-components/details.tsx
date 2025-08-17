@@ -11,7 +11,7 @@ import type {
 } from 'react'
 import { Children, cloneElement, useEffect, useRef, useState } from 'react'
 import { Collapse } from '../components/collapse.js'
-import { useHash } from '../hooks'
+import { useHash } from '../hooks/index.js'
 
 export const Details: FC<ComponentProps<'details'>> = ({
   children,
