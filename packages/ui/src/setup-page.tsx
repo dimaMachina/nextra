@@ -6,9 +6,9 @@
  * This file should be never used directly, only in loader.ts
  */
 import { useMDXComponents as getMDXComponents } from 'next-mdx-import-source-file'
+import type { MDXWrapper } from 'nextra'
 import type { ComponentProps, FC } from 'react'
 import { createElement } from 'react'
-import type { MDXWrapper } from 'nextra'
 
 const Wrapper = getMDXComponents().wrapper
 

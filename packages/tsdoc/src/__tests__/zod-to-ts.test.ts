@@ -1,6 +1,5 @@
-import { reactNode } from 'nextra/schemas'
+import { NextraConfigSchema, reactNode } from 'nextra/schemas'
 import { z } from 'zod'
-import { NextraConfigSchema } from 'nextra/schemas'
 import { LayoutPropsSchema } from '../../../theme-docs/src/schemas.js'
 import { HeadPropsSchema } from '../../../ui/src/components/head.js'
 import { generateTsFromZod } from '../zod-to-ts.js'

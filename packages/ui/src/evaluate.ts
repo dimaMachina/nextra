@@ -1,8 +1,8 @@
 'use no memo'
 
+import type { EvaluateResult } from 'nextra'
 import jsxDevRuntime from 'react/jsx-dev-runtime'
 import jsxRuntime from 'react/jsx-runtime'
-import type { EvaluateResult } from 'nextra'
 import type { MDXComponents } from './mdx-components.js'
 
 const runtime =
