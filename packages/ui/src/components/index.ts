@@ -1,6 +1,4 @@
-export { Mermaid } from '@theguild/remark-mermaid/mermaid'
-export { MathJax, MathJaxContext } from 'better-react-mathjax'
-export { ImageZoom } from 'nextra/components'
+export * from 'nextra/components'
 
 export { Banner } from './banner/index.js'
 export { FileTree } from './file-tree/index.js'

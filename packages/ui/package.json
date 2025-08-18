@@ -38,8 +38,6 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.2",
-    "@theguild/remark-mermaid": "^0.3.0",
-    "better-react-mathjax": "^2.3.0",
     "clsx": "^2.1.0",
     "react-compiler-runtime": "^19.1.0-rc.2",
     "title": "^4.0.1",

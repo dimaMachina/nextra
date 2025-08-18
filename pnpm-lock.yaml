@@ -631,12 +631,6 @@ importers:
       '@headlessui/react':
         specifier: ^2.1.2
         version: 2.2.7(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      '@theguild/remark-mermaid':
-        specifier: ^0.3.0
-        version: 0.3.0(react@19.1.1)
-      better-react-mathjax:
-        specifier: ^2.3.0
-        version: 2.3.0(react@19.1.1)
       clsx:
         specifier: ^2.1.0
         version: 2.1.1

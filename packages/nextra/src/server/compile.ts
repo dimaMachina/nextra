@@ -143,7 +143,7 @@ export async function compileMdx(
         [
           remarkNpm2Yarn, // should be before remarkRemoveImports because contains `import { Tabs as $Tabs, Tab as $Tab } from ...`
           {
-            packageName: '@nextra/ui',
+            packageName: 'nextra/components',
             tabNamesProp: 'items',
             storageKey: 'selectedPackageManager'
           }
