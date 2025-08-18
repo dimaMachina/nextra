@@ -103,7 +103,7 @@ bar[^1]
   it('should fill heading deeply', async () => {
     const rawJs = await compileMdx(
       `
-import { Steps } from 'nextra/components'
+import { Steps } from '@nextra/ui'
 
 ## baz qux
 

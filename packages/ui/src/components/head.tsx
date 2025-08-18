@@ -114,7 +114,7 @@ export const HeadPropsSchema = z.strictObject({
  *
  * ```jsx filename="app/layout.jsx" {8}
  * import { Layout } from 'my-nextra-theme'
- * import { Head } from 'nextra/components'
+ * import { Head } from '@nextra/ui'
  *
  * export default function MyLayout({ children, ...props }) {
  *   return (

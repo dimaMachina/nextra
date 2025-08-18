@@ -87,7 +87,7 @@ interface SearchProps extends InputProps {
    * ```tsx filename="search-with-callback.jsx"
    * 'use client'
    *
-   * import { Search } from 'nextra/components'
+   * import { Search } from '@nextra/ui'
    *
    * export function SearchWithCallback() {
    *   return (

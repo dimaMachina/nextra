@@ -19,7 +19,7 @@ import { Tabs as _Tabs, Tab } from './index.client.js'
  *
  * @usage
  * ```mdx
- * import { Tabs } from 'nextra/components'
+ * import { Tabs } from '@nextra/ui'
  *
  * <Tabs items={['pnpm', 'npm', 'yarn']}>
  *   <Tabs.Tab>**pnpm**: Fast, disk space efficient package manager.</Tabs.Tab>
@@ -33,7 +33,7 @@ import { Tabs as _Tabs, Tab } from './index.client.js'
  * You can use the `defaultIndex` prop to set the default tab index:
  *
  * ```mdx /defaultIndex="1"/
- * import { Tabs } from 'nextra/components'
+ * import { Tabs } from '@nextra/ui'
  *
  * <Tabs items={['pnpm', 'npm', 'yarn']} defaultIndex="1">
  *   ...

@@ -77,7 +77,7 @@ export default MyType`
     `)
   })
   test('<Tabs />', async () => {
-    const code = "export type { Tabs as default } from 'nextra/components'"
+    const code = "export type { Tabs as default } from '@nextra/ui'"
     const result = generateDefinition({ code })
     expect(result).toMatchInlineSnapshot(`
       {
@@ -138,7 +138,7 @@ export default MyType`
     `)
   })
   test('<Steps />', async () => {
-    const code = "export type { Steps as default } from 'nextra/components'"
+    const code = "export type { Steps as default } from '@nextra/ui'"
     const result = generateDefinition({ code })
     expect(result).toMatchInlineSnapshot(`
       {
@@ -218,7 +218,7 @@ export default MyType`
   test('<Banner />', async () => {
     // TODO check `tw` prop
     const groupKeys = 'React.HTMLAttributes<HTMLDivElement>'
-    const code = `import type { Banner } from 'nextra/components'
+    const code = `import type { Banner } from '@nextra/ui'
 type $ = React.ComponentProps<typeof Banner>
 type $$ = Omit<$, keyof ${groupKeys} | 'tw'> & { '...props': ${groupKeys} }>
 export default $$`
@@ -254,7 +254,7 @@ export default $$`
     `)
   })
   test('<Search />', async () => {
-    const code = `import type { Search } from 'nextra/components'
+    const code = `import type { Search } from '@nextra/ui'
 type $ = React.ComponentProps<typeof Search>
 export default $`
     const result = generateDefinition({ code })
@@ -263,7 +263,7 @@ export default $`
   test('<Callout />', async () => {
     // TODO check `tw` prop
     const groupKeys = 'React.HTMLAttributes<HTMLDivElement>'
-    const code = `import type { Callout } from 'nextra/components'
+    const code = `import type { Callout } from '@nextra/ui'
 type $ = React.ComponentProps<typeof Callout>
 type $$ = Omit<$, keyof ${groupKeys} | 'tw'> & { '...props': ${groupKeys} }>
 export default $$`

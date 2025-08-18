@@ -66,8 +66,8 @@ component:
 ### Create a `<Blockquote>` component
 
 To create a `<Blockquote>` component, start by importing `withGitHubAlert` from
-`nextra/components`. You should then create the `<Blockquote>` component by
-invoking the `withGitHubAlert` function.
+`@nextra/ui`. You should then create the `<Blockquote>` component by invoking
+the `withGitHubAlert` function.
 
 The first argument should be a React HOC component that handles the GitHub alert
 syntax, and the second argument should be your standard `<blockquote>`
@@ -77,7 +77,7 @@ The `type` prop can be one of the following:
 `'note' | 'tip' | 'important' | 'warning' | 'caution'{:ts}`.
 
 ```jsx
-import { withGitHubAlert } from 'nextra/components'
+import { withGitHubAlert } from '@nextra/ui'
 
 const Blockquote = withGitHubAlert(({ type, ...props }) => {
   return <MyCalloutComponent type={type} {...props} />

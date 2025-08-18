@@ -57,7 +57,7 @@ For `nextra-docs-theme` and `nextra-blog-theme`, you can disable image zoom by
 replacing the `img` component used in MDX.
 
 ```jsx filename="theme.config.jsx"
-import { Image } from 'nextra/components'
+import { Image } from '@nextra/ui'
 
 export default {
   // ... your other configurations
@@ -73,7 +73,7 @@ When zoom is **disabled globally**, but you want to enable it for specific
 images, you can do so by using the `<ImageZoom>` component:
 
 ```mdx
-import { ImageZoom } from 'nextra/components'
+import { ImageZoom } from '@nextra/ui'
 
 <ImageZoom src="/demo.png" />
 ```
@@ -82,7 +82,7 @@ When zoom is **enabled globally**, and you want to disable zoom for a specific
 image, you can simply use the `<Image>` component:
 
 ```mdx
-import { Image } from 'nextra/components'
+import { Image } from '@nextra/ui'
 
 <Image src="/demo.png" />
 ```

@@ -40,7 +40,7 @@ import type { FC, HTMLAttributes } from 'react'
  * @usage
  *
  * ```mdx filename="MDX"
- * import { Bleed } from 'nextra/components'
+ * import { Bleed } from '@nextra/ui'
  *
  * <Bleed>Hey, I can use **Markdown** syntax here.</Bleed>
  *
