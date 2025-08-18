@@ -44,6 +44,7 @@
     "zod": "4.0.15"
   },
   "devDependencies": {
+    "nextra": "workspace:*",
     "@svgr/plugin-svgo": "^8.1.0",
     "@testing-library/react": "^16.0.0",
     "@types/react": "^19.1.8",

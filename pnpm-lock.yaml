@@ -640,9 +640,6 @@ importers:
       clsx:
         specifier: ^2.1.0
         version: 2.1.1
-      nextra:
-        specifier: workspace:*
-        version: link:../nextra
       react-compiler-runtime:
         specifier: ^19.1.0-rc.2
         version: 19.1.0-rc.2(react@19.1.1)
@@ -674,6 +671,9 @@ importers:
       next:
         specifier: 15.4.6
         version: 15.4.6(patch_hash=50cce18d7123018948de67ca6a7fec975a9efb878ce48f035b22a36138d8809a)(@babel/core@7.28.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      nextra:
+        specifier: workspace:*
+        version: link:../nextra
       react:
         specifier: 19.1.1
         version: 19.1.1
