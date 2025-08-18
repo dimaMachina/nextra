@@ -6,7 +6,8 @@ import {
   ListboxOption,
   ListboxOptions
 } from '@headlessui/react'
-import type { AnchorPropsWithSelection } from '@headlessui/react/dist/internal/floating'
+// @ts-expect-error -- fixme
+import { AnchorPropsWithSelection } from '@headlessui/react/dist/internal/floating'
 import cn from 'clsx'
 import type { Dispatch, FC, ReactNode } from 'react'
 import { Fragment } from 'react'

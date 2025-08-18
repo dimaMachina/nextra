@@ -6,10 +6,14 @@ import {
   MenuButton,
   MenuItems
 } from '@headlessui/react'
+import {
+  Anchor,
+  ArrowRightIcon,
+  Button,
+  MenuIcon,
+  useFSRoute
+} from '@nextra/ui'
 import cn from 'clsx'
-import { Anchor, Button } from 'nextra/components'
-import { useFSRoute } from 'nextra/hooks'
-import { ArrowRightIcon, MenuIcon } from 'nextra/icons'
 import type { MenuItem } from 'nextra/normalize-pages'
 import type { FC, ReactNode } from 'react'
 import { setMenu, useConfig, useMenu, useThemeConfig } from '../../stores'

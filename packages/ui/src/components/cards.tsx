@@ -122,7 +122,7 @@ const _Cards: FC<
  * component is used to group multiple cards together.
  *
  * ```mdx filename="MDX"
- * import { Cards } from 'nextra/components'
+ * import { Cards } from '@nextra/ui'
  * import { CardsIcon, OneIcon, WarningIcon } from '../path/with/your/icons'
  *
  * <Cards>

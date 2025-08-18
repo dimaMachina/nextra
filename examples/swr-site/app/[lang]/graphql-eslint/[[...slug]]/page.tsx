@@ -1,6 +1,6 @@
+import { Callout, Tabs } from '@nextra/ui'
 import { notFound } from 'next/navigation'
 import { compileMdx } from 'nextra/compile'
-import { Callout, Tabs } from 'nextra/components'
 import { evaluate } from 'nextra/evaluate'
 import {
   convertToPageMap,

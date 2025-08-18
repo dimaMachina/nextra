@@ -1,8 +1,8 @@
 'use client'
 
+import { Button } from '@nextra/ui'
 import { useTransitionRouter } from 'next-view-transitions'
 import { usePathname } from 'next/navigation'
-import { Button } from 'nextra/components'
 import type { FC } from 'react'
 
 export const GoBack: FC = () => {

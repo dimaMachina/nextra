@@ -15,17 +15,17 @@ const API_REFERENCE: (
   { type: 'separator', title: 'Layout Components', name: '_' },
   {
     name: 'Banner',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     groupKeys: 'HTMLAttributes<HTMLDivElement>'
   },
   {
     name: 'Head',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     isFlattened: true
   },
   {
     name: 'Search',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     isFlattened: false,
     groupKeys:
       "Omit<ComboboxInputProps, 'className' | 'onChange' | 'onFocus' | 'onBlur' | 'value' | 'placeholder'>"
@@ -33,19 +33,19 @@ const API_REFERENCE: (
   { type: 'separator', title: 'Content Components', name: '_2' },
   {
     name: 'Bleed',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     groupKeys: 'HTMLAttributes<HTMLDivElement>'
   },
   {
     name: 'Callout',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     groupKeys: 'HTMLAttributes<HTMLDivElement>'
   },
   {
     // TODO: add
     // <APIDocs componentName="Cards.Card" />
     name: 'Cards',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     groupKeys: 'HTMLAttributes<HTMLDivElement>'
   },
   {
@@ -53,12 +53,12 @@ const API_REFERENCE: (
     // <APIDocs componentName="FileTree.Folder" />
     // <APIDocs componentName="FileTree.File" />
     name: 'FileTree',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     groupKeys: 'HTMLAttributes<HTMLUListElement>'
   },
   {
     name: 'Steps',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     groupKeys: 'HTMLAttributes<HTMLDivElement>'
   },
   {
@@ -67,13 +67,13 @@ const API_REFERENCE: (
     // <APIDocs componentName="Table.Th" groupKeys="ComponentProps<'th'>" />
     // <APIDocs componentName="Table.Td" groupKeys="ComponentProps<'td'>" />
     name: 'Table',
-    packageName: 'nextra/components',
+    packageName: '@nextra/ui',
     groupKeys: 'HTMLAttributes<HTMLTableElement>'
   },
-  { name: 'Tabs', packageName: 'nextra/components' },
+  { name: 'Tabs', packageName: '@nextra/ui' },
   { type: 'separator', title: 'Other Components', name: '_3' },
   { name: 'MDXRemote', packageName: 'nextra/mdx-remote' },
-  { name: 'Playground', packageName: 'nextra/components' },
+  { name: 'Playground', packageName: '@nextra/ui' },
   { name: 'TSDoc', packageName: '@nextra/tsdoc' }
 ]
 

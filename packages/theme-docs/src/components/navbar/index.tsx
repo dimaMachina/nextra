@@ -1,9 +1,8 @@
 /* TODO: eslint typescript-sort-keys/interface: error */
+import { Anchor, DiscordIcon, GitHubIcon } from '@nextra/ui'
 import cn from 'clsx'
 // eslint-disable-next-line no-restricted-imports -- since we don't need `newWindow` prop
 import NextLink from 'next/link'
-import { Anchor } from 'nextra/components'
-import { DiscordIcon, GitHubIcon } from 'nextra/icons'
 import type { FC, ReactNode } from 'react'
 import { ClientNavbar } from './index.client'
 

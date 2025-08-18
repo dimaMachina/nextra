@@ -19,9 +19,9 @@ import type {
   SyntheticEvent
 } from 'react'
 import { useDeferredValue, useEffect, useRef, useState } from 'react'
-import type { PagefindSearchOptions } from '../../types.js'
 import { useMounted } from '../hooks/use-mounted.js'
 import { InformationCircleIcon, SpinnerIcon } from '../icons/index.js'
+import type { PagefindSearchOptions } from '../types.js'
 
 // Fix React Compiler (BuildHIR::lowerExpression) Handle Import expressions
 export async function importPagefind() {
@@ -87,7 +87,7 @@ interface SearchProps extends InputProps {
    * ```tsx filename="search-with-callback.jsx"
    * 'use client'
    *
-   * import { Search } from 'nextra/components'
+   * import { Search } from '@nextra/ui'
    *
    * export function SearchWithCallback() {
    *   return (

@@ -37,7 +37,7 @@ type BannerProps = HTMLAttributes<HTMLDivElement> & {
  *
  * ```jsx filename="app/layout.jsx" {7-11}
  * import { Layout } from 'my-nextra-theme'
- * import { Banner } from 'nextra/components'
+ * import { Banner } from '@nextra/ui'
  *
  * export default function MyLayout({ children, ...props }) {
  *   return (

@@ -1,0 +1,60 @@
+{
+  "name": "@nextra/ui",
+  "version": "4.3.0",
+  "description": "Next.js and MDX based site generator.",
+  "repository": "https://github.com/dimaMachina/nextra",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "types": "./dist/index.d.mts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.mts",
+      "import": "./dist/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production tsup",
+    "dev": "NODE_OPTIONS=--max_old_space_size=8192 tsup --watch",
+    "prepublishOnly": "pnpm build",
+    "test": "vitest --typecheck",
+    "types:check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "next": ">=14",
+    "nextra": "workspace:*",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "clsx": "^2.1.0",
+    "react-compiler-runtime": "^19.1.0-rc.2",
+    "title": "^4.0.1",
+    "zod": "4.0.15"
+  },
+  "devDependencies": {
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@testing-library/react": "^16.0.0",
+    "@types/react": "^19.1.8",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild-plugin-svgr": "^3.1.1",
+    "esbuild-react-compiler-plugin": "workspace:*",
+    "next": "^15.0.2",
+    "nextra": "workspace:*",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "vitest": "^3.0.0"
+  },
+  "sideEffects": false
+}

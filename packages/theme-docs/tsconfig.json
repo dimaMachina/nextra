@@ -17,7 +17,8 @@
       // For type tests
       "unified": ["../nextra/node_modules/unified"],
       "rehype-katex": ["../nextra/node_modules/rehype-katex/lib/index.d.js"],
-      "next/image": ["./node_modules/next/image"]
+      "next/image": ["./node_modules/next/image"],
+      "next/link": ["./node_modules/next/link"]
     }
   },
   "exclude": ["dist"]

@@ -29,7 +29,7 @@ import { useId } from 'react'
  * heading level based on the content hierarchy on the page.
  *
  * ```mdx filename="MDX" {7-15}
- * import { Steps } from 'nextra/components'
+ * import { Steps } from '@nextra/ui'
  *
  * ## Getting Started
  *

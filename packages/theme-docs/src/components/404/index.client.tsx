@@ -1,7 +1,7 @@
 'use client'
 
+import { useMounted } from '@nextra/ui'
 import { usePathname } from 'next/navigation'
-import { useMounted } from 'nextra/hooks'
 import type { FC, ReactNode } from 'react'
 import { Link } from '../../mdx-components/link'
 import { useThemeConfig } from '../../stores'

@@ -1,13 +1,14 @@
-import cn from 'clsx'
-import { Button, Select } from 'nextra/components'
-import { useCopy } from 'nextra/hooks'
 import {
   ArrowRightIcon,
+  Button,
   ChatGPTIcon,
   ClaudeIcon,
   CopyIcon,
-  LinkArrowIcon
-} from 'nextra/icons'
+  LinkArrowIcon,
+  Select,
+  useCopy
+} from '@nextra/ui'
+import cn from 'clsx'
 import type { FC, SVGProps } from 'react'
 
 const Item: FC<{

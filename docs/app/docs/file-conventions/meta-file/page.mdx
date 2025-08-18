@@ -7,9 +7,9 @@ description:
 ---
 
 import { generateTsFromZod } from '@nextra/tsdoc'
+import { FileTree } from '@nextra/ui'
 import { ContentAndAppFileTee } from 'components/content-and-app-file-tree'
 import { Video } from 'components/video'
-import { FileTree } from 'nextra/components'
 import { pageThemeSchema } from 'private-next-root-dir/../packages/nextra/dist/server/schemas'
 
 export function Block({ children }) {
@@ -171,7 +171,7 @@ For the below file structure:
 The following `_meta` file defines pages titles:
 
 ```jsx filename="_meta.jsx"
-import { GitHubIcon } from 'nextra/icons'
+import { GitHubIcon } from '@nextra/ui'
 
 export default {
   index: 'My Homepage',

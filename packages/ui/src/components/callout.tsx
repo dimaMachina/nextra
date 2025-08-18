@@ -98,7 +98,7 @@ type CalloutProps = HTMLAttributes<HTMLDivElement> & {
  * <Callout>Helpful advice for doing things better or more easily.</Callout>
  *
  * ```mdx
- * import { Callout } from 'nextra/components'
+ * import { Callout } from '@nextra/ui'
  *
  * <Callout>Helpful advice for doing things better or more easily.</Callout>
  * ```
@@ -110,7 +110,7 @@ type CalloutProps = HTMLAttributes<HTMLDivElement> & {
  * </Callout>
  *
  * ```mdx
- * import { Callout } from 'nextra/components'
+ * import { Callout } from '@nextra/ui'
  *
  * <Callout type="info">
  *   Useful information that users should know, even when skimming content.
@@ -124,7 +124,7 @@ type CalloutProps = HTMLAttributes<HTMLDivElement> & {
  * </Callout>
  *
  * ```mdx
- * import { Callout } from 'nextra/components'
+ * import { Callout } from '@nextra/ui'
  *
  * <Callout type="warning">
  *   Urgent info that needs immediate user attention to avoid problems.
@@ -138,7 +138,7 @@ type CalloutProps = HTMLAttributes<HTMLDivElement> & {
  * </Callout>
  *
  * ```mdx
- * import { Callout } from 'nextra/components'
+ * import { Callout } from '@nextra/ui'
  *
  * <Callout type="error">
  *   Advises about risks or negative outcomes of certain actions.
@@ -152,7 +152,7 @@ type CalloutProps = HTMLAttributes<HTMLDivElement> & {
  * </Callout>
  *
  * ```mdx
- * import { Callout } from 'nextra/components'
+ * import { Callout } from '@nextra/ui'
  *
  * <Callout type="important">
  *   Key information users need to know to achieve their goal.
@@ -164,7 +164,7 @@ type CalloutProps = HTMLAttributes<HTMLDivElement> & {
  * <Callout type="info" emoji="⭐">Nextra has 13k stars on GitHub!</Callout>
  *
  * ```mdx
- * import { Callout } from 'nextra/components'
+ * import { Callout } from '@nextra/ui'
  *
  * <Callout type="info" emoji="⭐">Nextra has 13k stars on GitHub!</Callout>
  * ```

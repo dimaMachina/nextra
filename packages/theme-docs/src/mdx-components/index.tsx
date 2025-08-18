@@ -2,7 +2,6 @@
 'use no memo'
 
 /* eslint sort-keys: error */
-import cn from 'clsx'
 import {
   Callout,
   Code,
@@ -13,7 +12,8 @@ import {
   Table,
   withGitHubAlert,
   withIcons
-} from 'nextra/components'
+} from '@nextra/ui'
+import cn from 'clsx'
 import { useMDXComponents as getNextraMDXComponents } from 'nextra/mdx-components'
 import type { UseMDXComponents } from 'nextra/mdx-components'
 import { removeLinks } from 'nextra/remove-links'

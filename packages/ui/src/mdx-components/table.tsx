@@ -68,7 +68,7 @@ const Td: FC<HTMLAttributes<HTMLTableCellElement>> = props => {
  *
  * @usage
  * ```mdx
- * import { Table } from 'nextra/components'
+ * import { Table } from '@nextra/ui'
  *
  * <Table>
  *   <thead>

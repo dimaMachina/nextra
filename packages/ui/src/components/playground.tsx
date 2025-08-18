@@ -1,9 +1,9 @@
 'use client'
 
+import { evaluate } from 'nextra/evaluate'
+import type { MDXRemoteProps } from 'nextra/mdx-remote'
 import { useEffect, useState } from 'react'
 import type { FC, ReactElement } from 'react'
-import { evaluate } from '../evaluate.js'
-import type { MDXRemoteProps } from '../mdx-remote.js'
 import { Callout } from './callout.js'
 
 type PlaygroundProps = {
@@ -26,7 +26,7 @@ type PlaygroundProps = {
  *
  * @usage
  * ```mdx filename="Basic Usage"
- * import { Playground } from 'nextra/components'
+ * import { Playground } from '@nextra/ui'
  *
  * # Playground
  *
@@ -41,7 +41,7 @@ type PlaygroundProps = {
  * You may also specify a fallback component like so:
  *
  * ```mdx filename="Usage with Fallback"
- * import { Playground } from 'nextra/components'
+ * import { Playground } from '@nextra/ui'
  *
  * <Playground
  *   source="## Hello world"
@@ -58,7 +58,7 @@ type PlaygroundProps = {
  * argument:
  *
  * ```mdx {1,6-8}
- * import { Playground } from 'nextra/components'
+ * import { Playground } from '@nextra/ui'
  * import { useMDXComponents } from '../path/to/my/mdx-components'
  *
  * <Playground
@@ -119,5 +119,5 @@ export const Playground: FC<PlaygroundProps> = ({
 
 // Otherwise react-compiler fails
 function importCompile() {
-  return import('../../server/compile.js')
+  return import('nextra/compile')
 }

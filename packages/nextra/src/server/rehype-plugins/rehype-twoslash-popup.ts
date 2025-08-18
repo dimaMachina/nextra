@@ -14,7 +14,7 @@ const TWOSLASH_POPUP_IMPORT_AST: MdxjsEsmHast = {
       body: [
         {
           type: 'ImportDeclaration',
-          source: { type: 'Literal', value: 'nextra/components' },
+          source: { type: 'Literal', value: '@nextra/ui' },
           attributes: [],
           specifiers: [
             {

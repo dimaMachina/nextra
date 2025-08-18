@@ -1,9 +1,7 @@
 'use client'
 
+import { Button, MoonIcon, SunIcon, useMounted } from '@nextra/ui'
 import { useTheme } from 'next-themes'
-import { Button } from 'nextra/components'
-import { useMounted } from 'nextra/hooks'
-import { MoonIcon, SunIcon } from 'nextra/icons'
 
 export function ThemeSwitch() {
   const { setTheme, resolvedTheme } = useTheme()

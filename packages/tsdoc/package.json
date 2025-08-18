@@ -36,6 +36,7 @@
     "typescript": "*"
   },
   "dependencies": {
+    "@nextra/ui": "workspace:*",
     "clsx": "^2.1.1",
     "github-slugger": "^2.0.0",
     "slash": "^5.1.0",

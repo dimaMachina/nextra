@@ -1,8 +1,8 @@
 'use client'
 
+import { Anchor } from '@nextra/ui'
 import { usePathname } from 'next/navigation'
 import type { PageMapItem } from 'nextra'
-import { Anchor } from 'nextra/components'
 import { normalizePages } from 'nextra/normalize-pages'
 import type { FC } from 'react'
 

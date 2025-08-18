@@ -1,11 +1,17 @@
 'use client'
 
+import {
+  Anchor,
+  ArrowRightIcon,
+  Button,
+  Collapse,
+  ExpandIcon,
+  useFSRoute,
+  useHash
+} from '@nextra/ui'
 import cn from 'clsx'
 import { usePathname } from 'next/navigation'
 import type { Heading } from 'nextra'
-import { Anchor, Button, Collapse } from 'nextra/components'
-import { useFSRoute, useHash } from 'nextra/hooks'
-import { ArrowRightIcon, ExpandIcon } from 'nextra/icons'
 import type { Item, MenuItem, PageItem } from 'nextra/normalize-pages'
 import type {
   ComponentProps,

@@ -1,6 +1,5 @@
+import { ArrowRightIcon, Button } from '@nextra/ui'
 import cn from 'clsx'
-import { Button } from 'nextra/components'
-import { ArrowRightIcon } from 'nextra/icons'
 import type { ComponentProps, FC, ReactNode } from 'react'
 
 const SCROLL_TO_OPTIONS = { top: 0, behavior: 'smooth' } as const

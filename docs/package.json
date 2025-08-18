@@ -12,6 +12,7 @@
   "dependencies": {
     "@nextra/theme-docs": "workspace:*",
     "@nextra/tsdoc": "workspace:*",
+    "@nextra/ui": "workspace:*",
     "clsx": "^2.1.0",
     "framer-motion": "^12.0.0",
     "next": "^15.0.2",
