@@ -1,5 +1,3 @@
-export * from 'nextra/components'
-
 export { Banner } from './banner/index.js'
 export { FileTree } from './file-tree/index.js'
 export { SkipNavContent, SkipNavLink } from './skip-nav/index.js'
