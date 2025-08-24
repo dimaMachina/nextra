@@ -406,8 +406,8 @@ importers:
         specifier: ^2.3.2
         version: 2.8.1
       zod:
-        specifier: 4.0.15
-        version: 4.0.15
+        specifier: 4.1.1
+        version: 4.1.1
     devDependencies:
       '@svgr/plugin-svgo':
         specifier: ^8.1.0
@@ -537,8 +537,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       zod:
-        specifier: 4.0.15
-        version: 4.0.15
+        specifier: 4.1.1
+        version: 4.1.1
       zustand:
         specifier: ^5.0.1
         version: 5.0.7(@types/react@19.1.10)(react@19.1.1)(use-sync-external-store@1.5.0(react@19.1.1))
@@ -604,8 +604,8 @@ importers:
         specifier: '*'
         version: 5.9.2
       zod:
-        specifier: 4.0.15
-        version: 4.0.15
+        specifier: 4.1.1
+        version: 4.1.1
     devDependencies:
       '@nextra/theme-docs':
         specifier: workspace:*
@@ -6681,8 +6681,8 @@ packages:
   zod@3.24.2:
     resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
 
-  zod@4.0.15:
-    resolution: {integrity: sha512-2IVHb9h4Mt6+UXkyMs0XbfICUh1eUrlJJAOupBHUhLRnKkruawyDddYRCs0Eizt900ntIMk9/4RksYl+FgSpcQ==}
+  zod@4.1.1:
+    resolution: {integrity: sha512-SgMZK/h8Tigt9nnKkfJMvB/mKjiJXaX26xegP4sa+0wHIFVFWVlsQGdhklDmuargBD3Hsi3rsQRIzwJIhTPJHA==}
 
   zustand@4.5.7:
     resolution: {integrity: sha512-CHOUy7mu3lbD6o6LJLfllpjkzhHXSBlX8B9+qPddUsIfeF5S/UZ5q0kmCsnRqT1UHFQZchNFDDzMbQsuesHWlw==}
@@ -13899,7 +13899,7 @@ snapshots:
 
   zod@3.24.2: {}
 
-  zod@4.0.15: {}
+  zod@4.1.1: {}
 
   zustand@4.5.7(@types/react@19.1.10)(react@19.1.1):
     dependencies:
