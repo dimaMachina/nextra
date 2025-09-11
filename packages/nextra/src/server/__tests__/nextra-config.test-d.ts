@@ -1,7 +1,6 @@
 import type { z } from 'zod'
 import type { HeadPropsSchema } from '../../client/components/head.js'
-import type { HeadProps } from '../../../../ui/src/types.generated.js'
-import type { NextraConfig } from '../../types.generated.js'
+import type { HeadProps, NextraConfig } from '../../types.generated.js'
 import type { NextraConfigSchema } from '../schemas.js'
 import type { IsEqual } from './test-utils.js'
 

@@ -139,9 +139,6 @@ importers:
 
   examples/custom-theme:
     dependencies:
-      '@nextra/ui':
-        specifier: workspace:*
-        version: link:../../packages/ui
       next:
         specifier: 15.4.6
         version: 15.4.6(patch_hash=50cce18d7123018948de67ca6a7fec975a9efb878ce48f035b22a36138d8809a)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -643,12 +640,6 @@ importers:
       react-compiler-runtime:
         specifier: ^19.1.0-rc.2
         version: 19.1.0-rc.2(react@19.1.1)
-      title:
-        specifier: ^4.0.1
-        version: 4.0.1
-      zod:
-        specifier: 4.0.15
-        version: 4.0.15
     devDependencies:
       '@svgr/plugin-svgo':
         specifier: ^8.1.0

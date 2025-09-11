@@ -13,6 +13,6 @@ export default defineConfig({
       'next-mdx-import-source-file': path.resolve(
         'src/client/mdx-components.ts'
       )
-    },
+    }
   }
 })

@@ -1,6 +1,6 @@
 import { NextraConfigSchema } from 'nextra/schemas'
+import { HeadPropsSchema } from '../../../nextra/src/client/components/head.js'
 import { LayoutPropsSchema } from '../../../theme-docs/src/schemas.js'
-import { HeadPropsSchema } from '../../../ui/src/components/head.js'
 import { generateDefinition } from '../base.js'
 import { generateTsFromZod } from '../zod-to-ts.js'
 import typesFixture from './fixtures/flattened?raw'
