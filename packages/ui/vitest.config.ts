@@ -14,6 +14,5 @@ export default defineConfig({
         'src/client/mdx-components.ts'
       )
     },
-    setupFiles: ['./setup-files.ts']
   }
 })

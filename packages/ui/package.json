@@ -39,9 +39,7 @@
   "dependencies": {
     "@headlessui/react": "^2.1.2",
     "clsx": "^2.1.0",
-    "react-compiler-runtime": "^19.1.0-rc.2",
-    "title": "^4.0.1",
-    "zod": "4.0.15"
+    "react-compiler-runtime": "^19.1.0-rc.2"
   },
   "devDependencies": {
     "@svgr/plugin-svgo": "^8.1.0",
