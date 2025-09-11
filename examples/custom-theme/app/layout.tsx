@@ -1,4 +1,4 @@
-import { Head } from '@nextra/ui'
+import { Head } from 'nextra/components'
 import type { Metadata } from 'next'
 import { getPageMap } from 'nextra/page-map'
 import type { FC, ReactNode } from 'react'

@@ -10,7 +10,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@nextra/ui": "workspace:*",
     "next": "^15.0.2",
     "nextra": "workspace:*",
     "react": "19.1.0",
