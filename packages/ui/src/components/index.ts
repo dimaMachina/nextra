@@ -1,7 +1,7 @@
 export { Banner } from './banner/index.js'
 export { FileTree } from './file-tree/index.js'
-export { SkipNavContent, SkipNavLink } from './skip-nav/index.js'
 export { Popup } from './popup/index.js'
+export { SkipNavContent, SkipNavLink } from './skip-nav/index.js'
 export { Tabs } from './tabs/index.js'
 export { Bleed } from './bleed.js'
 export { Button } from './button.js'
