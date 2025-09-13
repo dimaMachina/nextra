@@ -26,7 +26,7 @@ type PlaygroundProps = {
  *
  * @usage
  * ```mdx filename="Basic Usage"
- * import { Playground } from '@nextra/ui'
+ * import { Playground } from 'nextra/components'
  *
  * # Playground
  *
@@ -41,7 +41,7 @@ type PlaygroundProps = {
  * You may also specify a fallback component like so:
  *
  * ```mdx filename="Usage with Fallback"
- * import { Playground } from '@nextra/ui'
+ * import { Playground } from 'nextra/components'
  *
  * <Playground
  *   source="## Hello world"
@@ -58,7 +58,7 @@ type PlaygroundProps = {
  * argument:
  *
  * ```mdx {1,6-8}
- * import { Playground } from '@nextra/ui'
+ * import { Playground } from 'nextra/components'
  * import { useMDXComponents } from '../path/to/my/mdx-components'
  *
  * <Playground

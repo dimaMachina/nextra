@@ -33,7 +33,7 @@ import { Tree } from './tree.js'
  * with the `name` attribute. Use `defaultOpen` to set the folder to open on load.
  *
  * ```mdx filename="MDX"
- * import { FileTree } from '@nextra/ui'
+ * import { FileTree } from 'nextra/components'
  *
  * <FileTree>
  *   <FileTree.Folder name="content" defaultOpen>
