@@ -1,4 +1,4 @@
-# nextra
+# @nextra/core
 
 ## 4.3.0
 

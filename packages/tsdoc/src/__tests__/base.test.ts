@@ -83,7 +83,7 @@ export default MyType`
       {
         "description": "A built-in component for creating tabbed content, helping organize related information in a
       compact, interactive layout.",
-        "filePath": "../nextra/dist/client/components/tabs/index.d.ts",
+        "filePath": "../ui/dist/components/tabs/index.d.mts",
         "name": "Tabs",
         "signatures": [
           {
@@ -94,7 +94,7 @@ export default MyType`
               },
             ],
             "returns": {
-              "type": "react_jsx_runtime_js.JSX.Element",
+              "type": "Element",
             },
           },
         ],
@@ -105,7 +105,7 @@ export default MyType`
         <Tabs.Tab>**Yarn** is a software packaging system.</Tabs.Tab>
       </Tabs>",
           "usage": "\`\`\`mdx
-      import { Tabs } from 'nextra/components'
+      import { Tabs } from '@nextra/ui'
 
       <Tabs items={['pnpm', 'npm', 'yarn']}>
         <Tabs.Tab>**pnpm**: Fast, disk space efficient package manager.</Tabs.Tab>
@@ -119,7 +119,7 @@ export default MyType`
       You can use the \`defaultIndex\` prop to set the default tab index:
 
       \`\`\`mdx /defaultIndex="1"/
-      import { Tabs } from 'nextra/components'
+      import { Tabs } from '@nextra/ui'
 
       <Tabs items={['pnpm', 'npm', 'yarn']} defaultIndex="1">
         ...
@@ -144,7 +144,7 @@ export default MyType`
       {
         "description": "A built-in component to turn a numbered list into a visual representation of
       steps.",
-        "filePath": "../nextra/dist/client/components/steps.d.ts",
+        "filePath": "../ui/dist/components/steps.d.mts",
         "name": "Steps",
         "signatures": [
           {
@@ -180,7 +180,7 @@ export default MyType`
       heading level based on the content hierarchy on the page.
 
       \`\`\`mdx filename="MDX" {7-15}
-      import { Steps } from 'nextra/components'
+      import { Steps } from '@nextra/ui'
 
       ## Getting Started
 

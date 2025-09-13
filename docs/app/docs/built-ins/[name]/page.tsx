@@ -20,7 +20,7 @@ const API_REFERENCE: (
   },
   {
     name: 'Head',
-    packageName: '@nextra/ui',
+    packageName: 'nextra/components',
     isFlattened: true
   },
   {
