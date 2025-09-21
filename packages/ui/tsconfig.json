@@ -12,13 +12,7 @@
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "bundler",
     "types": ["vitest/globals"],
-    "noUncheckedIndexedAccess": true,
-    "paths": {
-      // For type tests
-      "unified": ["../nextra/node_modules/unified"],
-      "rehype-katex": ["../nextra/node_modules/rehype-katex/lib/index.d.js"],
-      "next/image": ["./node_modules/next/dist/shared/lib/get-img-props"]
-    }
+    "noUncheckedIndexedAccess": true
   },
   "exclude": ["dist"]
 }

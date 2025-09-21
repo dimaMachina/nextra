@@ -105,7 +105,7 @@ export default MyType`
         <Tabs.Tab>**Yarn** is a software packaging system.</Tabs.Tab>
       </Tabs>",
           "usage": "\`\`\`mdx
-      import { Tabs } from '@nextra/ui'
+      import { Tabs } from 'nextra/components'
 
       <Tabs items={['pnpm', 'npm', 'yarn']}>
         <Tabs.Tab>**pnpm**: Fast, disk space efficient package manager.</Tabs.Tab>
@@ -119,7 +119,7 @@ export default MyType`
       You can use the \`defaultIndex\` prop to set the default tab index:
 
       \`\`\`mdx /defaultIndex="1"/
-      import { Tabs } from '@nextra/ui'
+      import { Tabs } from 'nextra/components'
 
       <Tabs items={['pnpm', 'npm', 'yarn']} defaultIndex="1">
         ...
@@ -180,7 +180,7 @@ export default MyType`
       heading level based on the content hierarchy on the page.
 
       \`\`\`mdx filename="MDX" {7-15}
-      import { Steps } from '@nextra/ui'
+      import { Steps } from 'nextra/components'
 
       ## Getting Started
 
