@@ -1,6 +1,6 @@
+import { Cards } from '@nextra/ui'
 import { useMDXComponents as getMDXComponents } from 'next-mdx-import-source-file'
 import type { PageMapItem } from 'nextra'
-import { Cards } from 'nextra/components'
 import { getIndexPageMap, getPageMap } from 'nextra/page-map'
 import type { FC } from 'react'
 

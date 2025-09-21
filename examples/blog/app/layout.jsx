@@ -1,5 +1,5 @@
 import { Footer, Layout, Navbar, ThemeSwitch } from '@nextra/theme-blog'
-import { Banner, Head, Search } from 'nextra/components'
+import { Banner, Head, Search } from '@nextra/ui'
 import { getPageMap } from 'nextra/page-map'
 import '@nextra/theme-blog/style.css'
 

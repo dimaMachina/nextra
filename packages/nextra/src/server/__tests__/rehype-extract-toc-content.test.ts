@@ -103,7 +103,7 @@ bar[^1]
   it('should fill heading deeply', async () => {
     const rawJs = await compileMdx(
       `
-import { Steps } from 'nextra/components'
+import { Steps } from '@nextra/ui'
 
 ## baz qux
 
@@ -120,9 +120,9 @@ import { Steps } from 'nextra/components'
       /*@jsxImportSource react*/
       import { useMDXComponents as _provideComponents } from 'next-mdx-import-source-file'
       export const metadata = {}
-      import { Steps } from 'nextra/components'
+      import { Steps } from '@nextra/ui'
       export const sourceCode =
-        "import { Steps } from 'nextra/components'\\n\\n## baz qux\\n\\n<Steps>\\n  <div>\\n  ### foo bar\\n  </div>\\n</Steps>"
+        "import { Steps } from '@nextra/ui'\\n\\n## baz qux\\n\\n<Steps>\\n  <div>\\n  ### foo bar\\n  </div>\\n</Steps>"
       function useTOC(props) {
         return [
           {

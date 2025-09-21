@@ -1,6 +1,5 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import svgr from 'esbuild-plugin-svgr'
 import { reactCompilerPlugin } from 'esbuild-react-compiler-plugin'
 import { defineConfig } from 'tsup'
 import { defaultEntry } from './default-entry.js'
@@ -11,7 +10,7 @@ const SEP = path.sep === '/' ? '/' : '\\\\'
 
 export default defineConfig({
   name: packageJson.name,
-  entry: [...defaultEntry, '!src/icon.ts', 'src/**/*.svg'],
+  entry: defaultEntry,
   format: 'esm',
   dts: true,
   splitting: IS_PRODUCTION,
@@ -24,14 +23,6 @@ export default defineConfig({
     await fs.writeFile(clientPackageJSON, '{"sideEffects":false}')
   },
   esbuildPlugins: [
-    svgr({
-      exportType: 'named',
-      typescript: true,
-      svgoConfig: {
-        plugins: ['removeXMLNS']
-      },
-      plugins: ['@svgr/plugin-svgo']
-    }),
     reactCompilerPlugin({
       filter: new RegExp(
         String.raw`/nextra/src/client/.+$`.replaceAll('/', SEP)
@@ -52,14 +43,6 @@ export default defineConfig({
         // Positive lookahead asserts that the pattern is followed by `";`, but does not include
         // `";` in the match.
         const replaced = code.replaceAll(/(?<= from ")node:(.+)(?=";)/g, '$1')
-        return { code: replaced }
-      }
-    },
-    {
-      // Strip `.svg` suffix from imports
-      name: 'strip-dot-svg',
-      renderChunk(code) {
-        const replaced = code.replaceAll(/(?<= from ")(.+)\.svg(?=";)/g, '$1')
         return { code: replaced }
       }
     }

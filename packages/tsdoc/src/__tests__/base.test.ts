@@ -1,5 +1,5 @@
+import { NextraConfigSchema } from 'nextra/schemas'
 import { HeadPropsSchema } from '../../../nextra/src/client/components/head.js'
-import { NextraConfigSchema } from '../../../nextra/src/server/schemas.js'
 import { LayoutPropsSchema } from '../../../theme-docs/src/schemas.js'
 import { generateDefinition } from '../base.js'
 import { generateTsFromZod } from '../zod-to-ts.js'
@@ -77,13 +77,13 @@ export default MyType`
     `)
   })
   test('<Tabs />', async () => {
-    const code = "export type { Tabs as default } from 'nextra/components'"
+    const code = "export type { Tabs as default } from '@nextra/ui'"
     const result = generateDefinition({ code })
     expect(result).toMatchInlineSnapshot(`
       {
         "description": "A built-in component for creating tabbed content, helping organize related information in a
       compact, interactive layout.",
-        "filePath": "../nextra/dist/client/components/tabs/index.d.ts",
+        "filePath": "../ui/dist/components/tabs/index.d.mts",
         "name": "Tabs",
         "signatures": [
           {
@@ -94,7 +94,7 @@ export default MyType`
               },
             ],
             "returns": {
-              "type": "react_jsx_runtime_js.JSX.Element",
+              "type": "Element",
             },
           },
         ],
@@ -138,13 +138,13 @@ export default MyType`
     `)
   })
   test('<Steps />', async () => {
-    const code = "export type { Steps as default } from 'nextra/components'"
+    const code = "export type { Steps as default } from '@nextra/ui'"
     const result = generateDefinition({ code })
     expect(result).toMatchInlineSnapshot(`
       {
         "description": "A built-in component to turn a numbered list into a visual representation of
       steps.",
-        "filePath": "../nextra/dist/client/components/steps.d.ts",
+        "filePath": "../ui/dist/components/steps.d.mts",
         "name": "Steps",
         "signatures": [
           {
@@ -218,7 +218,7 @@ export default MyType`
   test('<Banner />', async () => {
     // TODO check `tw` prop
     const groupKeys = 'React.HTMLAttributes<HTMLDivElement>'
-    const code = `import type { Banner } from 'nextra/components'
+    const code = `import type { Banner } from '@nextra/ui'
 type $ = React.ComponentProps<typeof Banner>
 type $$ = Omit<$, keyof ${groupKeys} | 'tw'> & { '...props': ${groupKeys} }>
 export default $$`
@@ -254,7 +254,7 @@ export default $$`
     `)
   })
   test('<Search />', async () => {
-    const code = `import type { Search } from 'nextra/components'
+    const code = `import type { Search } from '@nextra/ui'
 type $ = React.ComponentProps<typeof Search>
 export default $`
     const result = generateDefinition({ code })
@@ -263,7 +263,7 @@ export default $`
   test('<Callout />', async () => {
     // TODO check `tw` prop
     const groupKeys = 'React.HTMLAttributes<HTMLDivElement>'
-    const code = `import type { Callout } from 'nextra/components'
+    const code = `import type { Callout } from '@nextra/ui'
 type $ = React.ComponentProps<typeof Callout>
 type $$ = Omit<$, keyof ${groupKeys} | 'tw'> & { '...props': ${groupKeys} }>
 export default $$`

@@ -26,7 +26,7 @@ const { img: Image, ...docsComponents } = getDocsMDXComponents({
   async APIDocs({
     componentName,
     groupKeys,
-    packageName = 'nextra/components',
+    packageName = '@nextra/ui',
     code: $code,
     flattened,
     definition: $definition,

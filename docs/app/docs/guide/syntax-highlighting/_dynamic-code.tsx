@@ -1,6 +1,6 @@
 'use client'
 
-import { Button } from 'nextra/components'
+import { Button } from '@nextra/ui'
 import type { FC, ReactNode } from 'react'
 import { useEffect, useRef } from 'react'
 

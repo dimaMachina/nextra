@@ -1,9 +1,9 @@
 'use client'
 
+import { evaluate } from 'nextra/evaluate'
+import type { MDXRemoteProps } from 'nextra/mdx-remote'
 import { useEffect, useState } from 'react'
 import type { FC, ReactElement } from 'react'
-import { evaluate } from '../evaluate.js'
-import type { MDXRemoteProps } from '../mdx-remote.js'
 import { Callout } from './callout.js'
 
 type PlaygroundProps = {
@@ -119,5 +119,5 @@ export const Playground: FC<PlaygroundProps> = ({
 
 // Otherwise react-compiler fails
 function importCompile() {
-  return import('../../server/compile.js')
+  return import('nextra/compile')
 }

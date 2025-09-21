@@ -2,8 +2,8 @@
 icon: TerminalIcon
 ---
 
+import { Tabs } from '@nextra/ui'
 import { compileMdx } from 'nextra/compile'
-import { Tabs } from 'nextra/components'
 import { MDXRemote } from 'nextra/mdx-remote'
 
 # Npm2Yarn
@@ -11,8 +11,7 @@ import { MDXRemote } from 'nextra/mdx-remote'
 Nextra uses
 [`@theguild/remark-npm2yarn`](https://npmjs.com/package/@theguild/remark-npm2yarn)
 package that replaces the code block that has `npm2yarn` metadata with
-[`<Tabs>` and `<Tabs.Tab>` components](/docs/built-ins/tabs) from
-`nextra/components`.
+[`<Tabs>` and `<Tabs.Tab>` components](/docs/built-ins/tabs) from `@nextra/ui`.
 
 The chosen tab is saved in the local storage, which will be chosen in future
 page renders.

@@ -1,7 +1,7 @@
 'use client'
 
+import { useFSRoute } from '@nextra/ui'
 import { Link } from 'next-view-transitions'
-import { useFSRoute } from 'nextra/hooks'
 import type { ComponentProps, FC } from 'react'
 
 export const NavbarLink: FC<ComponentProps<typeof Link>> = props => {

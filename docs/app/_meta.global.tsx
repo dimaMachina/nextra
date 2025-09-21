@@ -1,5 +1,5 @@
+import { LinkArrowIcon } from '@nextra/ui'
 import type { MetaRecord } from 'nextra'
-import { LinkArrowIcon } from 'nextra/icons'
 import type { FC, ReactNode } from 'react'
 import { useMDXComponents } from '../mdx-components'
 

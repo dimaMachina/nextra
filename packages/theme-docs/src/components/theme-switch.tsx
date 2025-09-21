@@ -1,10 +1,8 @@
 'use client'
 
+import { MoonIcon, Select, SunIcon, useMounted } from '@nextra/ui'
 import cn from 'clsx'
 import { useTheme } from 'next-themes'
-import { Select } from 'nextra/components'
-import { useMounted } from 'nextra/hooks'
-import { MoonIcon, SunIcon } from 'nextra/icons'
 import type { FC } from 'react'
 import { useThemeConfig } from '../stores'
 

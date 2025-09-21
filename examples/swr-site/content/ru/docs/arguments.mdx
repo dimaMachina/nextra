@@ -34,7 +34,7 @@ const { data: user } = useSWR(['/api/user', token], fetchWithToken)
 
 ## Передача объектов
 
-import { Callout } from 'nextra/components'
+import { Callout } from '@nextra/ui'
 
 <Callout>
   Since SWR 1.1.0, object-like keys will be serialized under the hood

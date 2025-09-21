@@ -11,7 +11,7 @@ import {
   Table,
   withGitHubAlert,
   withIcons
-} from 'nextra/components'
+} from '@nextra/ui'
 import { useMDXComponents as getNextraMDXComponents } from 'nextra/mdx-components'
 import type { MDXComponents, UseMDXComponents } from 'nextra/mdx-components'
 import type { ComponentProps, FC } from 'react'

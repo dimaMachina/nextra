@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@nextra/theme-docs": "workspace:*",
+    "@nextra/ui": "workspace:*",
     "markdown-to-jsx": "^7.4.0",
     "next": "^15.0.2",
     "nextra": "workspace:*",

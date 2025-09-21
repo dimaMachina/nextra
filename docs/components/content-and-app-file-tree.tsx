@@ -1,5 +1,5 @@
 import path from 'node:path'
-import { FileTree } from 'nextra/components'
+import { FileTree } from '@nextra/ui'
 import type { FC, ReactNode } from 'react'
 import { Children } from 'react'
 import { useMDXComponents } from '../mdx-components'

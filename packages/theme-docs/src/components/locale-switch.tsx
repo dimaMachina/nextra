@@ -1,10 +1,9 @@
 'use client'
 
+import { GlobeIcon, Select } from '@nextra/ui'
 import cn from 'clsx'
 import { addBasePath } from 'next/dist/client/add-base-path'
 import { usePathname } from 'next/navigation'
-import { Select } from 'nextra/components'
-import { GlobeIcon } from 'nextra/icons'
 import type { FC } from 'react'
 import { useThemeConfig } from '../stores'
 

@@ -1,8 +1,6 @@
-import cn from 'clsx'
 import Link from 'next/link'
 import type { ComponentPropsWithoutRef, FC } from 'react'
 import { EXTERNAL_URL_RE } from '../../server/constants.js'
-import { LinkArrowIcon } from '../icons/index.js'
 
 type NextLinkProps = ComponentPropsWithoutRef<typeof Link>
 
@@ -13,7 +11,9 @@ type Props = Omit<NextLinkProps, 'href'> & {
 export const Anchor: FC<Props> = ({ href = '', prefetch, ...props }) => {
   props = {
     ...props,
-    className: cn('x:focus-visible:nextra-focus', props.className)
+    className: ['x:focus-visible:nextra-focus', props.className]
+      .filter(Boolean)
+      .join(' ')
   }
   if (typeof href === 'string') {
     if (href.startsWith('#')) {
@@ -27,11 +27,21 @@ export const Anchor: FC<Props> = ({ href = '', prefetch, ...props }) => {
           {typeof children === 'string' && (
             <>
               &nbsp;
-              <LinkArrowIcon
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.7"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
                 // based on font-size
                 height="1em"
                 className="x:inline x:align-baseline x:shrink-0"
-              />
+              >
+                <path d="M7 17L17 7" />
+                <path d="M7 7h10v10" />
+              </svg>
             </>
           )}
         </a>

@@ -9,7 +9,7 @@ describe('remarkRemoveImports', () => {
   it('should fill heading deeply', async () => {
     const rawJs = await compileMdx(
       `
-import { Steps } from 'nextra/components'
+import { Steps } from '@nextra/ui'
 
 export const myVar = 123
 
@@ -28,7 +28,7 @@ export const Test = ({value}) => value
       const myVar = 123
       const Test = ({ value }) => value
       const sourceCode =
-        'import { Steps } from \\'nextra/components\\'\\n\\nexport const myVar = 123\\n\\nexport const Test = ({value}) => value\\n\\n## <Test value="Hello" /> {myVar}'
+        'import { Steps } from \\'@nextra/ui\\'\\n\\nexport const myVar = 123\\n\\nexport const Test = ({value}) => value\\n\\n## <Test value="Hello" /> {myVar}'
       function useTOC(props) {
         return [
           {
